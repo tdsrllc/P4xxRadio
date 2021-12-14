@@ -1,0 +1,25 @@
+var structrcrm_full_scan_ex_metadata =
+[
+    [ "sourceId", "structrcrm_full_scan_ex_metadata.html#a4e0594399b9199bcdfc3be5e256e5ec4", null ],
+    [ "numSamplesTotal", "structrcrm_full_scan_ex_metadata.html#a27c71ef36611711775d911ae6b2a9cd8", null ],
+    [ "timestamp", "structrcrm_full_scan_ex_metadata.html#a681366d60a7973712c21ae2dd980c57c", null ],
+    [ "antennaId", "structrcrm_full_scan_ex_metadata.html#addc010cd4a46229444ceb47a846ee181", null ],
+    [ "scanFiltering", "structrcrm_full_scan_ex_metadata.html#a2d0b2f894dd9db6ab0ae3bde89b05b37", null ],
+    [ "scanType", "structrcrm_full_scan_ex_metadata.html#a9f515160f988d391970d511e614ba647", null ],
+    [ "scanCompressionType", "structrcrm_full_scan_ex_metadata.html#a920749a72f53ac9cc2dfddd5944759e6", null ],
+    [ "networkClock", "structrcrm_full_scan_ex_metadata.html#adfae3ea80c697c52ffeaf060d036f52f", null ],
+    [ "superframe", "structrcrm_full_scan_ex_metadata.html#a12119fafb8525d29ded60519b8223403", null ],
+    [ "slot", "structrcrm_full_scan_ex_metadata.html#aa94a55c0b3609edbf425371e97c2e99e", null ],
+    [ "radarNetScanIndex", "structrcrm_full_scan_ex_metadata.html#abe1a3c4d908b57b4deab11e2bc292be2", null ],
+    [ "reserved", "structrcrm_full_scan_ex_metadata.html#a137f3f9f112c348f05c631307adfaec0", null ],
+    [ "tdma", "structrcrm_full_scan_ex_metadata.html#a0dbd5386c8c42228fb81eec17e83eb20", null ],
+    [ "startBins", "structrcrm_full_scan_ex_metadata.html#a0dd94acd4ab7cd0e481940e75072c6eb", null ],
+    [ "stopBins", "structrcrm_full_scan_ex_metadata.html#a6a002fc6273844c6487d59053c63f459", null ],
+    [ "stepBins", "structrcrm_full_scan_ex_metadata.html#a77b19ab5486705d05aeba4ebca06fc48", null ],
+    [ "reserved", "structrcrm_full_scan_ex_metadata.html#a2acd999c18b508bb39d7c2a0d78cbff9", null ],
+    [ "scanParams", "structrcrm_full_scan_ex_metadata.html#af14f69ea45e4b775afd80c506f95e743", null ],
+    [ "ledIndex", "structrcrm_full_scan_ex_metadata.html#ab16b52ccd5f16fc5aee30b0bf10265c6", null ],
+    [ "noise", "structrcrm_full_scan_ex_metadata.html#a04a9f5e7d7b77e073eb8159c669b4e15", null ],
+    [ "vPeak", "structrcrm_full_scan_ex_metadata.html#a95a9b94a4f19be2c1b12a1103ee61edb", null ],
+    [ "led", "structrcrm_full_scan_ex_metadata.html#a5b4773f05469b16e84ad5cde79cd8d95", null ]
+];
