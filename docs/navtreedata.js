@@ -22,8 +22,8 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "TDSR UWB API", "index.html", [
-    [ "1. Introduction", "index.html", [
+  [ "P4XX UWB API", "index.html", [
+    [ "Introduction", "index.html", [
       [ "Usage Notes: Interface and Ranging", "index.html#mainpagesubsection1", null ],
       [ "RangeNet", "index.html#mainpagesubsection2", [
         [ "RangeNet Terms", "index.html#mainpagesubsection3", null ],
@@ -34,18 +34,18 @@ var NAVTREE =
       [ "Ranging, RangeNet, and Localization Configuration Control", "index.html#mainpagesubsection7", null ],
       [ "Sending and Receiving Data", "index.html#mainpagesubsection8", null ]
     ] ],
-    [ "4. Anatomy of a Complete Range Conversation", "anatomysubsection1.html", null ],
-    [ "7. Persist Flag Details and Usage", "persistflagsubsection1.html", [
+    [ "Anatomy of a Complete Range Conversation", "anatomysubsection1.html", null ],
+    [ "Persist Flag Details and Usage", "persistflagsubsection1.html", [
       [ "Persist Flag Values", "persistflagsubsection1.html#persistflagsubsection2", null ],
       [ "Persist Flag Usage", "persistflagsubsection1.html#persistflagsubsection3", null ],
       [ "Saving the Opmode to Flash", "persistflagsubsection1.html#persistflagsubsection4", null ]
     ] ],
-    [ "6. RangeNet Mode Parameter Descriptions", "rangenetsection1.html", [
+    [ "RangeNet Mode Parameter Descriptions", "rangenetsection1.html", [
       [ "Selecting ALOHA Min and Max Intervals", "rangenetsection1.html#rangenetsection2", null ],
       [ "Using Beacons and Excluding Nodes", "rangenetsection1.html#rangenetsection3", null ],
       [ "Difference between Message ID and Host Message ID", "rangenetsection1.html#rangenetsection4", null ]
     ] ],
-    [ "5. Ranging Parameter Descriptions and Confirm Status", "subsystem1.html", [
+    [ "Ranging Parameter Descriptions and Confirm Status", "subsystem1.html", [
       [ "Message ID", "subsystem1.html#subsystemsection1", null ],
       [ "Pulse Integration Index (PII)", "subsystem1.html#subsystemsection2", null ],
       [ "Antenna Mode", "subsystem1.html#subsystemsection3", null ],
@@ -74,11 +74,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "anatomysubsection1.html",
-"structloc_msg___get_config_confirm.html#a61039cff88857db56cb43d1afa1c1a71",
-"structmrm_msg___set_scan_info_config_request.html#a37de8f39981226d578b02dd55cd0fb16",
-"structrcrm_msg___full_scan_info.html#a89dba6b923f4305ffdd4ff2ff1515c94",
-"structrcrm_msg___set_sleep_mode_request.html#ac509798554f4bc4d0bb76cde9f4ab434",
-"structrn_msg___set_t_d_m_a_config_confirm.html"
+"structloc_msg___get_auto_t_d_m_a_slotmap_confirm.html#a687b835f9af8747b655363fcbe92a642",
+"structrcm_configuration.html#a5701fe43530b5b7adfaf643b29ae6f72",
+"structrcrm_msg___full_scan_info.html#af15361b7d87550f4a79e569822b841cc",
+"structrn_configuration.html#a45e465af0e36995716b5e072c6879232",
+"structrn_msg___set_t_d_m_a_slotmap_confirm.html#a0683164613ee356a4bfb69a9dc5f8c79"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

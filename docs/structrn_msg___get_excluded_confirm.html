@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_GetExcludedConfirm Struct Reference</title>
+<title>P4XX UWB API: rnMsg_GetExcludedConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,30 +101,111 @@ $(document).ready(function(){initNavTree('structrn_msg___get_excluded_confirm.ht
 <div class="title">rnMsg_GetExcludedConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that contains the current exclusion list.  
+ <a href="structrn_msg___get_excluded_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af66cd8d92aeda4184eec7158047d4ccd"><td class="memItemLeft" align="right" valign="top"><a id="af66cd8d92aeda4184eec7158047d4ccd"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:af66cd8d92aeda4184eec7158047d4ccd"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_excluded_confirm.html#af66cd8d92aeda4184eec7158047d4ccd">msgType</a></td></tr>
 <tr class="separator:af66cd8d92aeda4184eec7158047d4ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfe5752fa9defc98df22444f237f1394"><td class="memItemLeft" align="right" valign="top"><a id="acfe5752fa9defc98df22444f237f1394"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:acfe5752fa9defc98df22444f237f1394"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_excluded_confirm.html#acfe5752fa9defc98df22444f237f1394">msgId</a></td></tr>
 <tr class="separator:acfe5752fa9defc98df22444f237f1394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb3c299dcf82b95f4135ef8561f30db5"><td class="memItemLeft" align="right" valign="top"><a id="acb3c299dcf82b95f4135ef8561f30db5"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>numTargets</b></td></tr>
+<tr class="memitem:acb3c299dcf82b95f4135ef8561f30db5"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_excluded_confirm.html#acb3c299dcf82b95f4135ef8561f30db5">numTargets</a></td></tr>
 <tr class="separator:acb3c299dcf82b95f4135ef8561f30db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba2590dbd71098c955842e46d5f06b0"><td class="memItemLeft" align="right" valign="top"><a id="a7ba2590dbd71098c955842e46d5f06b0"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b> [3]</td></tr>
+<tr class="memitem:a7ba2590dbd71098c955842e46d5f06b0"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_excluded_confirm.html#a7ba2590dbd71098c955842e46d5f06b0">reserved</a> [3]</td></tr>
 <tr class="separator:a7ba2590dbd71098c955842e46d5f06b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad51cad1aefd5ac16c1efa1fa411feb8"><td class="memItemLeft" align="right" valign="top"><a id="aad51cad1aefd5ac16c1efa1fa411feb8"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>excludedTargets</b> [RN_MAX_EXCLUDED_TARGETS]</td></tr>
+<tr class="memitem:aad51cad1aefd5ac16c1efa1fa411feb8"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_excluded_confirm.html#aad51cad1aefd5ac16c1efa1fa411feb8">excludedTargets</a> [RN_MAX_EXCLUDED_TARGETS]</td></tr>
 <tr class="separator:aad51cad1aefd5ac16c1efa1fa411feb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that contains the current exclusion list. </p>
+<dl class="section note"><dt>Note</dt><dd>This is a variable length packet dependent on the number of nodes in the exclusion list. The maximum of number of nodes that can be in the exclusion list is 256 </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>Corresponding Message: <a class="el" href="structrn_msg___get_excluded_request.html" title="Request message from the host to get the radio&#39;s current exclusion list.">rnMsg_GetExcludedRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="af66cd8d92aeda4184eec7158047d4ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66cd8d92aeda4184eec7158047d4ccd">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetExcludedConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3108) for the GetExcludedConfirm packet </p>
+
+</div>
+</div>
+<a id="acfe5752fa9defc98df22444f237f1394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe5752fa9defc98df22444f237f1394">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetExcludedConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="acb3c299dcf82b95f4135ef8561f30db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb3c299dcf82b95f4135ef8561f30db5">&#9670;&nbsp;</a></span>numTargets</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetExcludedConfirm::numTargets</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of entries in this variable-length message </p>
+
+</div>
+</div>
+<a id="a7ba2590dbd71098c955842e46d5f06b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ba2590dbd71098c955842e46d5f06b0">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetExcludedConfirm::reserved[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="aad51cad1aefd5ac16c1efa1fa411feb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad51cad1aefd5ac16c1efa1fa411feb8">&#9670;&nbsp;</a></span>excludedTargets</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_GetExcludedConfirm::excludedTargets[RN_MAX_EXCLUDED_TARGETS]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Excluded Targets </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

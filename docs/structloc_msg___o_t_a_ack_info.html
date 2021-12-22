@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locMsg_OTAAckInfo Struct Reference</title>
+<title>P4XX UWB API: locMsg_OTAAckInfo Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,30 +101,110 @@ $(document).ready(function(){initNavTree('structloc_msg___o_t_a_ack_info.html','
 <div class="title">locMsg_OTAAckInfo Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Info message to let the host know which radios heard an OTA Location Mode or Map change.  
+ <a href="structloc_msg___o_t_a_ack_info.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a23647bd29d31c2d6b5da5f39156aea20"><td class="memItemLeft" align="right" valign="top"><a id="a23647bd29d31c2d6b5da5f39156aea20"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:a23647bd29d31c2d6b5da5f39156aea20"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___o_t_a_ack_info.html#a23647bd29d31c2d6b5da5f39156aea20">msgType</a></td></tr>
 <tr class="separator:a23647bd29d31c2d6b5da5f39156aea20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8ef7b6b57105eb3be13d0372c30f12"><td class="memItemLeft" align="right" valign="top"><a id="a6b8ef7b6b57105eb3be13d0372c30f12"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:a6b8ef7b6b57105eb3be13d0372c30f12"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___o_t_a_ack_info.html#a6b8ef7b6b57105eb3be13d0372c30f12">msgId</a></td></tr>
 <tr class="separator:a6b8ef7b6b57105eb3be13d0372c30f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f51429b75fac8ec7ceb140bf0499c88"><td class="memItemLeft" align="right" valign="top"><a id="a9f51429b75fac8ec7ceb140bf0499c88"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeId</b></td></tr>
+<tr class="memitem:a9f51429b75fac8ec7ceb140bf0499c88"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___o_t_a_ack_info.html#a9f51429b75fac8ec7ceb140bf0499c88">nodeId</a></td></tr>
 <tr class="separator:a9f51429b75fac8ec7ceb140bf0499c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae21c7a4bba6fa08f6e18ea9d81451b"><td class="memItemLeft" align="right" valign="top"><a id="aaae21c7a4bba6fa08f6e18ea9d81451b"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>cmdMsgType</b></td></tr>
+<tr class="memitem:aaae21c7a4bba6fa08f6e18ea9d81451b"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___o_t_a_ack_info.html#aaae21c7a4bba6fa08f6e18ea9d81451b">cmdMsgType</a></td></tr>
 <tr class="separator:aaae21c7a4bba6fa08f6e18ea9d81451b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9649eb97518e2f15b136546eb2a642f"><td class="memItemLeft" align="right" valign="top"><a id="af9649eb97518e2f15b136546eb2a642f"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:af9649eb97518e2f15b136546eb2a642f"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___o_t_a_ack_info.html#af9649eb97518e2f15b136546eb2a642f">reserved</a></td></tr>
 <tr class="separator:af9649eb97518e2f15b136546eb2a642f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Info message to let the host know which radios heard an OTA Location Mode or Map change. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a23647bd29d31c2d6b5da5f39156aea20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23647bd29d31c2d6b5da5f39156aea20">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_OTAAckInfo::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x5206) for the OTAAckInfo packet </p>
+
+</div>
+</div>
+<a id="a6b8ef7b6b57105eb3be13d0372c30f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8ef7b6b57105eb3be13d0372c30f12">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_OTAAckInfo::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages.</p>
+<p>For a more in depth description, check out <a class="el" href="subsystem1.html#subsystemsection1">Message ID</a> </p>
+
+</div>
+</div>
+<a id="a9f51429b75fac8ec7ceb140bf0499c88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f51429b75fac8ec7ceb140bf0499c88">&#9670;&nbsp;</a></span>nodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locMsg_OTAAckInfo::nodeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Node ID of the acknowledging neighbor </p>
+
+</div>
+</div>
+<a id="aaae21c7a4bba6fa08f6e18ea9d81451b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae21c7a4bba6fa08f6e18ea9d81451b">&#9670;&nbsp;</a></span>cmdMsgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_OTAAckInfo::cmdMsgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message type of the OTA command that was acknowledged </p>
+
+</div>
+</div>
+<a id="af9649eb97518e2f15b136546eb2a642f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9649eb97518e2f15b136546eb2a642f">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_OTAAckInfo::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

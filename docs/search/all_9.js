@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['electricaldelaypsa_49',['electricalDelayPsA',['../structrcm_configuration.html#a323ec633a6272cfd3b69172d82b910c1',1,'rcmConfiguration']]],
-  ['electricaldelaypsb_50',['electricalDelayPsB',['../structrcm_configuration.html#aef9a8d14759e01ec1e1d0990bad4e6b8',1,'rcmConfiguration']]]
+  ['kalmansigmaaccel_92',['kalmanSigmaAccel',['../structloc_configuration.html#a3a842d140a0159a60e6f443b9f870be6',1,'locConfiguration']]]
 ];

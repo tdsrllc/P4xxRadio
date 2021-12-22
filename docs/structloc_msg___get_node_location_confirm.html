@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locMsg_GetNodeLocationConfirm Struct Reference</title>
+<title>P4XX UWB API: locMsg_GetNodeLocationConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,27 +101,94 @@ $(document).ready(function(){initNavTree('structloc_msg___get_node_location_conf
 <div class="title">locMsg_GetNodeLocationConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that reports location info and status of GetNodeLocationRequest.  
+ <a href="structloc_msg___get_node_location_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab6eb34367b6f29de62864c607d36bb75"><td class="memItemLeft" align="right" valign="top"><a id="ab6eb34367b6f29de62864c607d36bb75"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:ab6eb34367b6f29de62864c607d36bb75"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___get_node_location_confirm.html#ab6eb34367b6f29de62864c607d36bb75">msgType</a></td></tr>
 <tr class="separator:ab6eb34367b6f29de62864c607d36bb75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc2bc7510865968d9e63a056911f8c31"><td class="memItemLeft" align="right" valign="top"><a id="abc2bc7510865968d9e63a056911f8c31"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:abc2bc7510865968d9e63a056911f8c31"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___get_node_location_confirm.html#abc2bc7510865968d9e63a056911f8c31">msgId</a></td></tr>
 <tr class="separator:abc2bc7510865968d9e63a056911f8c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28fd08cacff8906630d52d6cb93595a"><td class="memItemLeft" align="right" valign="top"><a id="af28fd08cacff8906630d52d6cb93595a"></a>
-<a class="el" href="structloc_location_report.html">locLocationReport</a>&#160;</td><td class="memItemRight" valign="bottom"><b>location</b></td></tr>
+<tr class="memitem:af28fd08cacff8906630d52d6cb93595a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structloc_location_report.html">locLocationReport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___get_node_location_confirm.html#af28fd08cacff8906630d52d6cb93595a">location</a></td></tr>
 <tr class="separator:af28fd08cacff8906630d52d6cb93595a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a85e816bcd52a6eb7c469d146e99811"><td class="memItemLeft" align="right" valign="top"><a id="a2a85e816bcd52a6eb7c469d146e99811"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="memitem:a2a85e816bcd52a6eb7c469d146e99811"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___get_node_location_confirm.html#a2a85e816bcd52a6eb7c469d146e99811">status</a></td></tr>
 <tr class="separator:a2a85e816bcd52a6eb7c469d146e99811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that reports location info and status of GetNodeLocationRequest. </p>
+<dl class="section see"><dt>See also</dt><dd>Corresponding Message: <a class="el" href="structloc_msg___get_node_location_request.html" title="Request message from the host to radio to get the node&#39;s location info.">locMsg_GetNodeLocationRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab6eb34367b6f29de62864c607d36bb75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6eb34367b6f29de62864c607d36bb75">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_GetNodeLocationConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x5108) for the GetNodeLocationConfirm packet </p>
+
+</div>
+</div>
+<a id="abc2bc7510865968d9e63a056911f8c31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc2bc7510865968d9e63a056911f8c31">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_GetNodeLocationConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages.</p>
+<p>For a more in depth description, check out <a class="el" href="subsystem1.html#subsystemsection1">Message ID</a> </p>
+
+</div>
+</div>
+<a id="af28fd08cacff8906630d52d6cb93595a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28fd08cacff8906630d52d6cb93595a">&#9670;&nbsp;</a></span>location</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structloc_location_report.html">locLocationReport</a> locMsg_GetNodeLocationConfirm::location</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structloc_location_report.html" title="Message used to construct Location Report messages.">locLocationReport</a> </dd></dl>
+
+</div>
+</div>
+<a id="a2a85e816bcd52a6eb7c469d146e99811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a85e816bcd52a6eb7c469d146e99811">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locMsg_GetNodeLocationConfirm::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Status of GetNodeLocationRequest. (0=Successful) </p><dl class="section see"><dt>See also</dt><dd>Table of all possible Confirm message status codes and their meanings: <a class="el" href="subsystem1.html#subsystemsection11">Confirm Message Status Codes</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

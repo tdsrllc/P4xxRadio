@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_SetResponseDataConfirm Struct Reference</title>
+<title>P4XX UWB API: rnMsg_SetResponseDataConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,24 +101,76 @@ $(document).ready(function(){initNavTree('structrn_msg___set_response_data_confi
 <div class="title">rnMsg_SetResponseDataConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confrim message from the radio that contains the status of SetResponseDataRequest.  
+ <a href="structrn_msg___set_response_data_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2361c664cd021580dfda04a0b19c1416"><td class="memItemLeft" align="right" valign="top"><a id="a2361c664cd021580dfda04a0b19c1416"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:a2361c664cd021580dfda04a0b19c1416"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_confirm.html#a2361c664cd021580dfda04a0b19c1416">msgType</a></td></tr>
 <tr class="separator:a2361c664cd021580dfda04a0b19c1416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace81d5660e1b08fd238e4cc041bcd57b"><td class="memItemLeft" align="right" valign="top"><a id="ace81d5660e1b08fd238e4cc041bcd57b"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:ace81d5660e1b08fd238e4cc041bcd57b"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_confirm.html#ace81d5660e1b08fd238e4cc041bcd57b">msgId</a></td></tr>
 <tr class="separator:ace81d5660e1b08fd238e4cc041bcd57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab7281fea31c2e8e7bdca43f41f9360d"><td class="memItemLeft" align="right" valign="top"><a id="aab7281fea31c2e8e7bdca43f41f9360d"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="memitem:aab7281fea31c2e8e7bdca43f41f9360d"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_confirm.html#aab7281fea31c2e8e7bdca43f41f9360d">status</a></td></tr>
 <tr class="separator:aab7281fea31c2e8e7bdca43f41f9360d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confrim message from the radio that contains the status of SetResponseDataRequest. </p>
+<dl class="section see"><dt>See also</dt><dd>Corresponding Message: <a class="el" href="structrn_msg___set_response_data_request.html" title="Request message from the host to set the data buffer in the RangeNet range response.">rnMsg_SetResponseDataRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2361c664cd021580dfda04a0b19c1416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2361c664cd021580dfda04a0b19c1416">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3104) for the SetResponseDataConfirm packet </p>
+
+</div>
+</div>
+<a id="ace81d5660e1b08fd238e4cc041bcd57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace81d5660e1b08fd238e4cc041bcd57b">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="aab7281fea31c2e8e7bdca43f41f9360d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7281fea31c2e8e7bdca43f41f9360d">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_SetResponseDataConfirm::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Status of SetResponseDataRequest. (0=Successful) </p><dl class="section see"><dt>See also</dt><dd>Table of all possible Confirm message status codes and their meanings: <a class="el" href="subsystem1.html#subsystemsection4">Code Channel</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

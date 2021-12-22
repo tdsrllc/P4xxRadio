@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_SetTDMASlotmapRequest Struct Reference</title>
+<title>P4XX UWB API: rnMsg_SetTDMASlotmapRequest Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,36 +101,146 @@ $(document).ready(function(){initNavTree('structrn_msg___set_t_d_m_a_slotmap_req
 <div class="title">rnMsg_SetTDMASlotmapRequest Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Request message from the host that configures the RangeNet TDMA Slot Map.  
+ <a href="structrn_msg___set_t_d_m_a_slotmap_request.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab2711fe53d5bc1886b5216fd286aae0a"><td class="memItemLeft" align="right" valign="top"><a id="ab2711fe53d5bc1886b5216fd286aae0a"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:ab2711fe53d5bc1886b5216fd286aae0a"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#ab2711fe53d5bc1886b5216fd286aae0a">msgType</a></td></tr>
 <tr class="separator:ab2711fe53d5bc1886b5216fd286aae0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af030e42f6dba0da28a1f9a036fb95bb4"><td class="memItemLeft" align="right" valign="top"><a id="af030e42f6dba0da28a1f9a036fb95bb4"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:af030e42f6dba0da28a1f9a036fb95bb4"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#af030e42f6dba0da28a1f9a036fb95bb4">msgId</a></td></tr>
 <tr class="separator:af030e42f6dba0da28a1f9a036fb95bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaedbb6918784577291dc549c5efe7fd"><td class="memItemLeft" align="right" valign="top"><a id="adaedbb6918784577291dc549c5efe7fd"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>numSlots</b></td></tr>
+<tr class="memitem:adaedbb6918784577291dc549c5efe7fd"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#adaedbb6918784577291dc549c5efe7fd">numSlots</a></td></tr>
 <tr class="separator:adaedbb6918784577291dc549c5efe7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe5d2c16acd36d214407fcd782e2d43"><td class="memItemLeft" align="right" valign="top"><a id="abbe5d2c16acd36d214407fcd782e2d43"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>slotmapFlags</b></td></tr>
+<tr class="memitem:abbe5d2c16acd36d214407fcd782e2d43"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#abbe5d2c16acd36d214407fcd782e2d43">slotmapFlags</a></td></tr>
 <tr class="separator:abbe5d2c16acd36d214407fcd782e2d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9831b89b7014fcafb7ac111ef5f06905"><td class="memItemLeft" align="right" valign="top"><a id="a9831b89b7014fcafb7ac111ef5f06905"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:a9831b89b7014fcafb7ac111ef5f06905"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#a9831b89b7014fcafb7ac111ef5f06905">reserved</a></td></tr>
 <tr class="separator:a9831b89b7014fcafb7ac111ef5f06905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88aa28f8b70665978862f8a08a440e2c"><td class="memItemLeft" align="right" valign="top"><a id="a88aa28f8b70665978862f8a08a440e2c"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>persistFlag</b></td></tr>
+<tr class="memitem:a88aa28f8b70665978862f8a08a440e2c"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#a88aa28f8b70665978862f8a08a440e2c">persistFlag</a></td></tr>
 <tr class="separator:a88aa28f8b70665978862f8a08a440e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaa57706bb14a1f69ecca88d25ec0303"><td class="memItemLeft" align="right" valign="top"><a id="adaa57706bb14a1f69ecca88d25ec0303"></a>
-<a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a>&#160;</td><td class="memItemRight" valign="bottom"><b>slots</b> [RN_MAX_TDMA_SLOTS]</td></tr>
+<tr class="memitem:adaa57706bb14a1f69ecca88d25ec0303"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_t_d_m_a_slotmap_request.html#adaa57706bb14a1f69ecca88d25ec0303">slots</a> [RN_MAX_TDMA_SLOTS]</td></tr>
 <tr class="separator:adaa57706bb14a1f69ecca88d25ec0303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Request message from the host that configures the RangeNet TDMA Slot Map. </p>
+<p>This message can be used to overwrite ane xisting Slot Map as well as update on or many slots </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_slot_definition.html" title="TDMA slot map message structure and definition.">rnTDMASlotDefinition</a>; Corresponding Message: <a class="el" href="structrn_msg___set_t_d_m_a_slotmap_confirm.html" title="Confirm message from the radio that reports the status of SetTDMASlotmapRequest.">rnMsg_SetTDMASlotmapConfirm</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab2711fe53d5bc1886b5216fd286aae0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2711fe53d5bc1886b5216fd286aae0a">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetTDMASlotmapRequest::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3010) for the SetTDMASlotmapRequest packet </p>
+
+</div>
+</div>
+<a id="af030e42f6dba0da28a1f9a036fb95bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af030e42f6dba0da28a1f9a036fb95bb4">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetTDMASlotmapRequest::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="adaedbb6918784577291dc549c5efe7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaedbb6918784577291dc549c5efe7fd">&#9670;&nbsp;</a></span>numSlots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_SetTDMASlotmapRequest::numSlots</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of slots. Indicates the number of slots included in the slot definitions below. Maximum number of slots in one API message is 32. (The maximum number of slots in the entire slotmap is 64.) </p>
+
+</div>
+</div>
+<a id="abbe5d2c16acd36d214407fcd782e2d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe5d2c16acd36d214407fcd782e2d43">&#9670;&nbsp;</a></span>slotmapFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_SetTDMASlotmapRequest::slotmapFlags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bit 0: Modify Slotmap – when this flag is set, this message will update the Slot Map instead of overwriting it. Use this flag for slotmaps larger than 32 slots because the large slotmaps need to be split across multiple RN_SET_TDMA_SLOTMAP_REQUESTs. The first message should overwrite the existing slotmap (this bit should be set to 0, Overwrite). The following messages completing the slotmap should have this bit set to 1, Modify. </p><dl class="section note"><dt>Note</dt><dd>if the Persist flag is intended to be set, the recommendation is to set Persist only in the final message. This avoids writing the flash for each partial slotmap update </dd></dl>
+
+</div>
+</div>
+<a id="a9831b89b7014fcafb7ac111ef5f06905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9831b89b7014fcafb7ac111ef5f06905">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_SetTDMASlotmapRequest::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="a88aa28f8b70665978862f8a08a440e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88aa28f8b70665978862f8a08a440e2c">&#9670;&nbsp;</a></span>persistFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_SetTDMASlotmapRequest::persistFlag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Persist Flag. Sets whether the Config Request is stored in Flash and persist through power cycling. Default value is 0 </p><dl class="section note"><dt>Note</dt><dd>• 0 does not write anything to flash.</dd></dl>
+<p>• 1 will save all active radio settings to flash.</p>
+<p>• 2 will save only the settings updated by this message to flash. </p><dl class="section warning"><dt>Warning</dt><dd>ALL radio settings set after the persist flag is set to 1 will also be saved to flash. </dd></dl>
+
+</div>
+</div>
+<a id="adaa57706bb14a1f69ecca88d25ec0303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaa57706bb14a1f69ecca88d25ec0303">&#9670;&nbsp;</a></span>slots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a> rnMsg_SetTDMASlotmapRequest::slots[RN_MAX_TDMA_SLOTS]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The slot definitions. Only the first numSlots need be included in this variable-length message. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_slot_definition.html" title="TDMA slot map message structure and definition.">rnTDMASlotDefinition</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

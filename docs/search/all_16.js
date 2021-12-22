@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['uwbkernelversionbuild_372',['uwbKernelVersionBuild',['../structrcrm_msg___get_status_info_confirm.html#a2d72659885504a0eef81a19636946d0e',1,'rcrmMsg_GetStatusInfoConfirm']]],
-  ['uwbkernelversionmajor_373',['uwbKernelVersionMajor',['../structrcrm_msg___get_status_info_confirm.html#aeef143387668f79fe1d86352c5b54b7d',1,'rcrmMsg_GetStatusInfoConfirm']]],
-  ['uwbkernelversionminor_374',['uwbKernelVersionMinor',['../structrcrm_msg___get_status_info_confirm.html#aae6e9410507cc02f23440f05ac61e9b5',1,'rcrmMsg_GetStatusInfoConfirm']]]
+  ['z_454',['z',['../structloc_location_definition.html#a7666cd64463f53c6ca7519f87e51a101',1,'locLocationDefinition::z()'],['../structloc_location_report.html#af27ff44f48049ca2d1209340314fa8aa',1,'locLocationReport::z()'],['../structloc_msg___echoed_location_info.html#ae8936f75953acc90b7a75a03193bc14e',1,'locMsg_EchoedLocationInfo::z()']]]
 ];

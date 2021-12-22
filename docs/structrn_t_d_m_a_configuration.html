@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnTDMAConfiguration Struct Reference</title>
+<title>P4XX UWB API: rnTDMAConfiguration Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,27 +101,82 @@ $(document).ready(function(){initNavTree('structrn_t_d_m_a_configuration.html','
 <div class="title">rnTDMAConfiguration Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>TDMA configuration message structure and definition.  
+ <a href="structrn_t_d_m_a_configuration.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6227f9c6f59060fc4e02ed5d6263931e"><td class="memItemLeft" align="right" valign="top"><a id="a6227f9c6f59060fc4e02ed5d6263931e"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxRequestDataSize</b></td></tr>
+<tr class="memitem:a6227f9c6f59060fc4e02ed5d6263931e"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_t_d_m_a_configuration.html#a6227f9c6f59060fc4e02ed5d6263931e">maxRequestDataSize</a></td></tr>
 <tr class="separator:a6227f9c6f59060fc4e02ed5d6263931e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afce14e57c757801ae361307ee6bbebb9"><td class="memItemLeft" align="right" valign="top"><a id="afce14e57c757801ae361307ee6bbebb9"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxResponseDataSize</b></td></tr>
+<tr class="memitem:afce14e57c757801ae361307ee6bbebb9"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_t_d_m_a_configuration.html#afce14e57c757801ae361307ee6bbebb9">maxResponseDataSize</a></td></tr>
 <tr class="separator:afce14e57c757801ae361307ee6bbebb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b15f206c4c61ee579bd5150541bfdd4"><td class="memItemLeft" align="right" valign="top"><a id="a8b15f206c4c61ee579bd5150541bfdd4"></a>
 rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved1</b></td></tr>
 <tr class="separator:a8b15f206c4c61ee579bd5150541bfdd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0ee9f6ebe746fc522d74197f98d71ba"><td class="memItemLeft" align="right" valign="top"><a id="ac0ee9f6ebe746fc522d74197f98d71ba"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved2</b></td></tr>
+<tr class="memitem:ac0ee9f6ebe746fc522d74197f98d71ba"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_t_d_m_a_configuration.html#ac0ee9f6ebe746fc522d74197f98d71ba">reserved2</a></td></tr>
 <tr class="separator:ac0ee9f6ebe746fc522d74197f98d71ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>TDMA configuration message structure and definition. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6227f9c6f59060fc4e02ed5d6263931e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6227f9c6f59060fc4e02ed5d6263931e">&#9670;&nbsp;</a></span>maxRequestDataSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnTDMAConfiguration::maxRequestDataSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Specifies the maximum amount of user data in a range request the Host application will use. If the Host application knows it will never use the maximum 1000 bytes, this can be set to a lower value. This enables RangeNet to reduce slot duration in TDMA networks in order to increase update rate. </p><dl class="section note"><dt>Note</dt><dd>This setting is ignored (treated as having a value of 0) unless the relevant flag is set for the TDMA slot(s). </dd>
+<dd>
+Default value is 10. Valid values are 0 through 1000 </dd></dl>
+
+</div>
+</div>
+<a id="afce14e57c757801ae361307ee6bbebb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce14e57c757801ae361307ee6bbebb9">&#9670;&nbsp;</a></span>maxResponseDataSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnTDMAConfiguration::maxResponseDataSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Specifies the maximum amount of user data in a range response the Host application will use. If the Host application knows it will never use the maximum 1000 bytes, this can be set to a lower value. This enables RangeNet to reduce slot duration in TDMA networks in order to increase update rate. </p><dl class="section note"><dt>Note</dt><dd>This setting is ignored (treated as having a value of 0) unless the relevant flag is set for the TDMA slot(s). </dd>
+<dd>
+Default value is 10. Valid values are 0 through 1000. </dd></dl>
+
+</div>
+</div>
+<a id="ac0ee9f6ebe746fc522d74197f98d71ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ee9f6ebe746fc522d74197f98d71ba">&#9670;&nbsp;</a></span>reserved2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnTDMAConfiguration::reserved2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

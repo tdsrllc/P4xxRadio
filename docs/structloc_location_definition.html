@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locLocationDefinition Struct Reference</title>
+<title>P4XX UWB API: locLocationDefinition Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,49 +101,214 @@ $(document).ready(function(){initNavTree('structloc_location_definition.html',''
 <div class="title">locLocationDefinition Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Message structure used to build <a class="el" href="structloc_msg___set_location_map_request.html" title="Request message from the host to set the radio&#39;s Location Map.">locMsg_SetLocationMapRequest</a> and <a class="el" href="structloc_msg___get_location_map_confirm.html" title="Confirm message from the radio containing the current Location Map and status of GetLocationMapReques...">locMsg_GetLocationMapConfirm</a>.  
+ <a href="structloc_location_definition.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a848dffd28d05f1717e0dc7dd72ff95cd"><td class="memItemLeft" align="right" valign="top"><a id="a848dffd28d05f1717e0dc7dd72ff95cd"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeId</b></td></tr>
+<tr class="memitem:a848dffd28d05f1717e0dc7dd72ff95cd"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#a848dffd28d05f1717e0dc7dd72ff95cd">nodeId</a></td></tr>
 <tr class="separator:a848dffd28d05f1717e0dc7dd72ff95cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad283eed8d25cae14ec8e7ba7d0189fc0"><td class="memItemLeft" align="right" valign="top"><a id="ad283eed8d25cae14ec8e7ba7d0189fc0"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeType</b></td></tr>
+<tr class="memitem:ad283eed8d25cae14ec8e7ba7d0189fc0"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#ad283eed8d25cae14ec8e7ba7d0189fc0">nodeType</a></td></tr>
 <tr class="separator:ad283eed8d25cae14ec8e7ba7d0189fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82b6053b91f4033b96fc95c2164b9b09"><td class="memItemLeft" align="right" valign="top"><a id="a82b6053b91f4033b96fc95c2164b9b09"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>axisDefinitions</b></td></tr>
+<tr class="memitem:a82b6053b91f4033b96fc95c2164b9b09"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#a82b6053b91f4033b96fc95c2164b9b09">axisDefinitions</a></td></tr>
 <tr class="separator:a82b6053b91f4033b96fc95c2164b9b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae43804677e394300e98fc36fb5bb01"><td class="memItemLeft" align="right" valign="top"><a id="aaae43804677e394300e98fc36fb5bb01"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b></td></tr>
+<tr class="memitem:aaae43804677e394300e98fc36fb5bb01"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#aaae43804677e394300e98fc36fb5bb01">flags</a></td></tr>
 <tr class="separator:aaae43804677e394300e98fc36fb5bb01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a476e132d0d94ebfb9cd04c9d0fabd309"><td class="memItemLeft" align="right" valign="top"><a id="a476e132d0d94ebfb9cd04c9d0fabd309"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved1</b></td></tr>
+<tr class="memitem:a476e132d0d94ebfb9cd04c9d0fabd309"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#a476e132d0d94ebfb9cd04c9d0fabd309">reserved1</a></td></tr>
 <tr class="separator:a476e132d0d94ebfb9cd04c9d0fabd309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9165c2977a091d1ca776a6492b0275d0"><td class="memItemLeft" align="right" valign="top"><a id="a9165c2977a091d1ca776a6492b0275d0"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved2</b></td></tr>
+<tr class="memitem:a9165c2977a091d1ca776a6492b0275d0"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#a9165c2977a091d1ca776a6492b0275d0">reserved2</a></td></tr>
 <tr class="separator:a9165c2977a091d1ca776a6492b0275d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af013441d31adfa3d88bcfe815db8b883"><td class="memItemLeft" align="right" valign="top"><a id="af013441d31adfa3d88bcfe815db8b883"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>beaconIntervalMs</b></td></tr>
+<tr class="memitem:af013441d31adfa3d88bcfe815db8b883"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_location_definition.html#af013441d31adfa3d88bcfe815db8b883">beaconIntervalMs</a></td></tr>
 <tr class="separator:af013441d31adfa3d88bcfe815db8b883"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f1be260741ab8ae94dfd970efdbaee"><td class="memItemLeft" ><a id="af7f1be260741ab8ae94dfd970efdbaee"></a>
 struct {</td></tr>
-<tr class="memitem:a8cc3aee034a8a0032b3b593ab02ec202"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>x</b></td></tr>
+<tr class="memitem:a8cc3aee034a8a0032b3b593ab02ec202"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_location_definition.html#a8d410ffc6b6714528e31eaa449b20533">x</a></td></tr>
 <tr class="separator:a8cc3aee034a8a0032b3b593ab02ec202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf907ffce3e0732de2261292d38f8cc5"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>y</b></td></tr>
+<tr class="memitem:acf907ffce3e0732de2261292d38f8cc5"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_location_definition.html#a99a36d23aa7b3da8d09e11ed32a2eedd">y</a></td></tr>
 <tr class="separator:acf907ffce3e0732de2261292d38f8cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a751e7b831d39ddc3053ef4315a8bc085"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>z</b></td></tr>
+<tr class="memitem:a751e7b831d39ddc3053ef4315a8bc085"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_location_definition.html#a7666cd64463f53c6ca7519f87e51a101">z</a></td></tr>
 <tr class="separator:a751e7b831d39ddc3053ef4315a8bc085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7f1be260741ab8ae94dfd970efdbaee"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>loc_mm</b></td></tr>
 <tr class="separator:af7f1be260741ab8ae94dfd970efdbaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Message structure used to build <a class="el" href="structloc_msg___set_location_map_request.html" title="Request message from the host to set the radio&#39;s Location Map.">locMsg_SetLocationMapRequest</a> and <a class="el" href="structloc_msg___get_location_map_confirm.html" title="Confirm message from the radio containing the current Location Map and status of GetLocationMapReques...">locMsg_GetLocationMapConfirm</a>. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a848dffd28d05f1717e0dc7dd72ff95cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a848dffd28d05f1717e0dc7dd72ff95cd">&#9670;&nbsp;</a></span>nodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locLocationDefinition::nodeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The Node ID of the radio for this entry </p>
+
+</div>
+</div>
+<a id="ad283eed8d25cae14ec8e7ba7d0189fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad283eed8d25cae14ec8e7ba7d0189fc0">&#9670;&nbsp;</a></span>nodeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locLocationDefinition::nodeType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Specifies the role of the radio in the system.</p>
+<p>0 : Mobile – the radio that ranges to Anchors and computes its own position.</p>
+<p>1 : Anchor – the radio with known, fixed location. If not being actively ranged to, Anchors will send out a beacon so that Mobiles know they are available.</p>
+<p>2 : Origin – if using Autosurvey, this Anchor type specifies that the Anchor is the origin in the relative coordinate system.</p>
+<p>3 : +X Axis – if using Autosurvey, this Anchor type specifies that the line from the origin to this Anchor represents the +X axis.</p>
+<p>4 : -X Axis – if using Autosurvey, this Anchor type specifies that the line from the origin to this Anchor represents the –X axis.</p>
+<p>5 : +Y Axis – if using Autosurvey, this Anchor type specifies that the Y axis is in the positive direction relative to the X axis and that this Anchor will be placed in the +Y plane.</p>
+<p>6 : -Y Axis – if using Autosurvey, this Anchor type specifies that the Y axis is in the negative direction relative to the X axis and that this Anchor will be placed in the -Y plane.</p>
+<p>7 : Z Axis – if using Autosurvey, this Anchor type specifies an additional Anchor to be surveyed and is not currently used to designate any part of the coordinate system. Its name as the Z Axis is a place holder for 3D implementation planned in a later software release. </p>
+
+</div>
+</div>
+<a id="a82b6053b91f4033b96fc95c2164b9b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b6053b91f4033b96fc95c2164b9b09">&#9670;&nbsp;</a></span>axisDefinitions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locLocationDefinition::axisDefinitions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bit 0: X axis fixed</p>
+<p>Bit 1: Y axis fixed</p>
+<p>Bit 2: Z axis fixed</p>
+<p>Bits 4, 5 (upper nibble): Z hemisphere (above, below, float) </p>
+
+</div>
+</div>
+<a id="aaae43804677e394300e98fc36fb5bb01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae43804677e394300e98fc36fb5bb01">&#9670;&nbsp;</a></span>flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locLocationDefinition::flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Echo location and range flags, etc.</p>
+<p>Bits 0 – 1 : Sets sending the ELL or ELLEX information. Only relevant for Mobiles since Anchors do not compute positions.</p>
+<p>0 : None – neither the ELL or ELLEX information is sent</p>
+<p>1 : ELL – the Mobile will send the last position computed on its next range request</p>
+<p>2 : ELLEX – the Mobile will send the last position along with the variance and covariance information in its next range request. Essentially includes the same information as the Location Info message</p>
+<p>Bit 2 : Enables ELR where the Mobile will include its last range measurement in its next range request. Only relevant for Mobiles in Tracking Mode. Anchors in Tracking Mode do not range at all, and in Autosurvey Mode, Anchors automatically echo their last range measurements, while Mobiles do not range at all. </p>
+
+</div>
+</div>
+<a id="a476e132d0d94ebfb9cd04c9d0fabd309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476e132d0d94ebfb9cd04c9d0fabd309">&#9670;&nbsp;</a></span>reserved1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locLocationDefinition::reserved1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="a9165c2977a091d1ca776a6492b0275d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9165c2977a091d1ca776a6492b0275d0">&#9670;&nbsp;</a></span>reserved2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locLocationDefinition::reserved2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="af013441d31adfa3d88bcfe815db8b883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af013441d31adfa3d88bcfe815db8b883">&#9670;&nbsp;</a></span>beaconIntervalMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locLocationDefinition::beaconIntervalMs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The average ALOHA transmit time in milliseconds. Set to 0 to enable Automatic Congestion Control (ACC). For Anchors it represents the average beacon interval and for Mobiles it represents the average ranging time. Note that with ALOHA the radio will generate a random hold-off such that the minimum time is the amount of time it takes to measure a range, and the longest time is ((2 * Beacon Interval) – Ranging Time). </p>
+
+</div>
+</div>
+<a id="a8d410ffc6b6714528e31eaa449b20533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d410ffc6b6714528e31eaa449b20533">&#9670;&nbsp;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locLocationDefinition::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The X location of the radio in millimeters </p>
+
+</div>
+</div>
+<a id="a99a36d23aa7b3da8d09e11ed32a2eedd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99a36d23aa7b3da8d09e11ed32a2eedd">&#9670;&nbsp;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locLocationDefinition::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The Y location of the radio in millimeters </p>
+
+</div>
+</div>
+<a id="a7666cd64463f53c6ca7519f87e51a101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7666cd64463f53c6ca7519f87e51a101">&#9670;&nbsp;</a></span>z</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locLocationDefinition::z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The Z location of the radio in millimeters </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

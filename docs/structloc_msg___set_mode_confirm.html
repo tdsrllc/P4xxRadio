@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locMsg_SetModeConfirm Struct Reference</title>
+<title>P4XX UWB API: locMsg_SetModeConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,30 +101,114 @@ $(document).ready(function(){initNavTree('structloc_msg___set_mode_confirm.html'
 <div class="title">locMsg_SetModeConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that reports the status of SetModeRequest.  
+ <a href="structloc_msg___set_mode_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5961f15fea113a32d8ff13ab8043f07d"><td class="memItemLeft" align="right" valign="top"><a id="a5961f15fea113a32d8ff13ab8043f07d"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:a5961f15fea113a32d8ff13ab8043f07d"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___set_mode_confirm.html#a5961f15fea113a32d8ff13ab8043f07d">msgType</a></td></tr>
 <tr class="separator:a5961f15fea113a32d8ff13ab8043f07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a991b351257586fbe8fad3e6a05e2f0"><td class="memItemLeft" align="right" valign="top"><a id="a5a991b351257586fbe8fad3e6a05e2f0"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:a5a991b351257586fbe8fad3e6a05e2f0"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___set_mode_confirm.html#a5a991b351257586fbe8fad3e6a05e2f0">msgId</a></td></tr>
 <tr class="separator:a5a991b351257586fbe8fad3e6a05e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a104b8df2bd4b8d629c99ff19c18dc402"><td class="memItemLeft" align="right" valign="top"><a id="a104b8df2bd4b8d629c99ff19c18dc402"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>mode</b></td></tr>
+<tr class="memitem:a104b8df2bd4b8d629c99ff19c18dc402"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___set_mode_confirm.html#a104b8df2bd4b8d629c99ff19c18dc402">mode</a></td></tr>
 <tr class="separator:a104b8df2bd4b8d629c99ff19c18dc402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b6c9cec23f1daf771638c431b225cf4"><td class="memItemLeft" align="right" valign="top"><a id="a9b6c9cec23f1daf771638c431b225cf4"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b> [3]</td></tr>
+<tr class="memitem:a9b6c9cec23f1daf771638c431b225cf4"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___set_mode_confirm.html#a9b6c9cec23f1daf771638c431b225cf4">reserved</a> [3]</td></tr>
 <tr class="separator:a9b6c9cec23f1daf771638c431b225cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a470620ff39f153ddbe90368a73a5eae6"><td class="memItemLeft" align="right" valign="top"><a id="a470620ff39f153ddbe90368a73a5eae6"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="memitem:a470620ff39f153ddbe90368a73a5eae6"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___set_mode_confirm.html#a470620ff39f153ddbe90368a73a5eae6">status</a></td></tr>
 <tr class="separator:a470620ff39f153ddbe90368a73a5eae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that reports the status of SetModeRequest. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structloc_msg___set_mode_request.html" title="Request message from the host to the radio to set the Location Operation Mode.">locMsg_SetModeRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5961f15fea113a32d8ff13ab8043f07d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5961f15fea113a32d8ff13ab8043f07d">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_SetModeConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x5103) for the SetModeConfirm packet </p>
+
+</div>
+</div>
+<a id="a5a991b351257586fbe8fad3e6a05e2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a991b351257586fbe8fad3e6a05e2f0">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_SetModeConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages.</p>
+<p>For a more in depth description, check out <a class="el" href="subsystem1.html#subsystemsection1">Message ID</a> </p>
+
+</div>
+</div>
+<a id="a104b8df2bd4b8d629c99ff19c18dc402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104b8df2bd4b8d629c99ff19c18dc402">&#9670;&nbsp;</a></span>mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locMsg_SetModeConfirm::mode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the current Location Operation Mode.</p>
+<p>0 : Idle – the purpose of the Idle mode is minimize RF and interface traffic so there is minimal chance of interference when sending configuration messages down to the radio and over the air via the Broadcast flag. In this mode Anchors will still beacon so the Mobiles will keep them in their Neighbor Database but will not pass Info messages to the Host. Mobiles sit idle and will not send range requests or Info messages to the Host. Radios will still report Info messages pertaining to Location configuration changes</p>
+<p>1 : Autosurvey – in this mode radios defined as Anchors in the Location Map will range to each other and Mobile radios will remain idle. This mode is primarily for the RangeNet GUI to collect the necessary information for Autosurvey (or for the user to implement their own Autosurvey).</p>
+<p>2 : Tracking – this is the operational tracking mode where radios defined as Mobiles in the Location Map will range to Anchors. </p>
+
+</div>
+</div>
+<a id="a9b6c9cec23f1daf771638c431b225cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b6c9cec23f1daf771638c431b225cf4">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locMsg_SetModeConfirm::reserved[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="a470620ff39f153ddbe90368a73a5eae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a470620ff39f153ddbe90368a73a5eae6">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locMsg_SetModeConfirm::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Status of SetModeRequest. (0=Successful) </p><dl class="section see"><dt>See also</dt><dd>Table of all possible Confirm message status codes and their meanings: <a class="el" href="subsystem1.html#subsystemsection11">Confirm Message Status Codes</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

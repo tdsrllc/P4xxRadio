@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_GetTDMASlotmapConfirm Struct Reference</title>
+<title>P4XX UWB API: rnMsg_GetTDMASlotmapConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,17 +101,19 @@ $(document).ready(function(){initNavTree('structrn_msg___get_t_d_m_a_slotmap_con
 <div class="title">rnMsg_GetTDMASlotmapConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that reports the radio's current TDMA Slot Map configuration and the status of GetTDMASlotmapRequest.  
+ <a href="structrn_msg___get_t_d_m_a_slotmap_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab7fa9b380b752690c3e4f0e288e7f4d2"><td class="memItemLeft" align="right" valign="top"><a id="ab7fa9b380b752690c3e4f0e288e7f4d2"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:ab7fa9b380b752690c3e4f0e288e7f4d2"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_slotmap_confirm.html#ab7fa9b380b752690c3e4f0e288e7f4d2">msgType</a></td></tr>
 <tr class="separator:ab7fa9b380b752690c3e4f0e288e7f4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa52dfe21f01842ea59bcb4cd6b096893"><td class="memItemLeft" align="right" valign="top"><a id="aa52dfe21f01842ea59bcb4cd6b096893"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:aa52dfe21f01842ea59bcb4cd6b096893"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_slotmap_confirm.html#aa52dfe21f01842ea59bcb4cd6b096893">msgId</a></td></tr>
 <tr class="separator:aa52dfe21f01842ea59bcb4cd6b096893"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af73ffb6aa84ec4a1142a9dadefdf9ddf"><td class="memItemLeft" align="right" valign="top"><a id="af73ffb6aa84ec4a1142a9dadefdf9ddf"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>numSlots</b></td></tr>
+<tr class="memitem:af73ffb6aa84ec4a1142a9dadefdf9ddf"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_slotmap_confirm.html#af73ffb6aa84ec4a1142a9dadefdf9ddf">numSlots</a></td></tr>
 <tr class="separator:af73ffb6aa84ec4a1142a9dadefdf9ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8a072cb04f03977c4da1fdd302e992"><td class="memItemLeft" align="right" valign="top"><a id="aea8a072cb04f03977c4da1fdd302e992"></a>
 rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b> [3]</td></tr>
@@ -118,15 +121,79 @@ rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b> 
 <tr class="memitem:af52e08fc76335849de8b4d1b1c9f973d"><td class="memItemLeft" align="right" valign="top"><a id="af52e08fc76335849de8b4d1b1c9f973d"></a>
 rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
 <tr class="separator:af52e08fc76335849de8b4d1b1c9f973d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa331a5f7bf4ba5be6e5bf7d9239d5774"><td class="memItemLeft" align="right" valign="top"><a id="aa331a5f7bf4ba5be6e5bf7d9239d5774"></a>
-<a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html">rnTDMASlotWithComputedDuration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>slots</b> [RN_MAX_TDMA_SLOTS]</td></tr>
+<tr class="memitem:aa331a5f7bf4ba5be6e5bf7d9239d5774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html">rnTDMASlotWithComputedDuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_slotmap_confirm.html#aa331a5f7bf4ba5be6e5bf7d9239d5774">slots</a> [RN_MAX_TDMA_SLOTS]</td></tr>
 <tr class="separator:aa331a5f7bf4ba5be6e5bf7d9239d5774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that reports the radio's current TDMA Slot Map configuration and the status of GetTDMASlotmapRequest. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html" title="Slot defintion along with computed duration. Used in messages containing slot info sent from the radi...">rnTDMASlotWithComputedDuration</a>; Corresponding Message: <a class="el" href="structrn_msg___get_t_d_m_a_slotmap_request.html" title="Request message from the host to get the current RangeNet TDMA Slot Map configuration.">rnMsg_GetTDMASlotmapRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab7fa9b380b752690c3e4f0e288e7f4d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7fa9b380b752690c3e4f0e288e7f4d2">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetTDMASlotmapConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3111) for the GetTDMASlotmapConfirm packet </p>
+
+</div>
+</div>
+<a id="aa52dfe21f01842ea59bcb4cd6b096893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52dfe21f01842ea59bcb4cd6b096893">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetTDMASlotmapConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="af73ffb6aa84ec4a1142a9dadefdf9ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73ffb6aa84ec4a1142a9dadefdf9ddf">&#9670;&nbsp;</a></span>numSlots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetTDMASlotmapConfirm::numSlots</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Indicates the number of slots included in the slot definitions below. Maximum number of slots in one message is 32 (larger slotmaps will be sent with multiple messages). </p>
+
+</div>
+</div>
+<a id="aa331a5f7bf4ba5be6e5bf7d9239d5774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa331a5f7bf4ba5be6e5bf7d9239d5774">&#9670;&nbsp;</a></span>slots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html">rnTDMASlotWithComputedDuration</a> rnMsg_GetTDMASlotmapConfirm::slots[RN_MAX_TDMA_SLOTS]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The slot definitions, plus durations computed by the radio. Only the first numSlots are included in this variable-length message </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html" title="Slot defintion along with computed duration. Used in messages containing slot info sent from the radi...">rnTDMASlotWithComputedDuration</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

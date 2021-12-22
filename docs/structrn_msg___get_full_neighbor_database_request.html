@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_GetFullNeighborDatabaseRequest Struct Reference</title>
+<title>P4XX UWB API: rnMsg_GetFullNeighborDatabaseRequest Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,30 +101,113 @@ $(document).ready(function(){initNavTree('structrn_msg___get_full_neighbor_datab
 <div class="title">rnMsg_GetFullNeighborDatabaseRequest Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Request message from the host to get a list of all known neighboring RangeNet nodes and other data.  
+ <a href="structrn_msg___get_full_neighbor_database_request.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa5a092766eb6425a4c7374b0e19787ef"><td class="memItemLeft" align="right" valign="top"><a id="aa5a092766eb6425a4c7374b0e19787ef"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:aa5a092766eb6425a4c7374b0e19787ef"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_request.html#aa5a092766eb6425a4c7374b0e19787ef">msgType</a></td></tr>
 <tr class="separator:aa5a092766eb6425a4c7374b0e19787ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed702c5dcae4190c4e431f3823dc759d"><td class="memItemLeft" align="right" valign="top"><a id="aed702c5dcae4190c4e431f3823dc759d"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:aed702c5dcae4190c4e431f3823dc759d"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_request.html#aed702c5dcae4190c4e431f3823dc759d">msgId</a></td></tr>
 <tr class="separator:aed702c5dcae4190c4e431f3823dc759d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b45b05922b78a1597cc04c51a2a012"><td class="memItemLeft" align="right" valign="top"><a id="ae3b45b05922b78a1597cc04c51a2a012"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxNeighborEntries</b></td></tr>
+<tr class="memitem:ae3b45b05922b78a1597cc04c51a2a012"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_request.html#ae3b45b05922b78a1597cc04c51a2a012">maxNeighborEntries</a></td></tr>
 <tr class="separator:ae3b45b05922b78a1597cc04c51a2a012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b244dcb7ac9322fb014897a022a43df"><td class="memItemLeft" align="right" valign="top"><a id="a6b244dcb7ac9322fb014897a022a43df"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>sortType</b></td></tr>
+<tr class="memitem:a6b244dcb7ac9322fb014897a022a43df"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_request.html#a6b244dcb7ac9322fb014897a022a43df">sortType</a></td></tr>
 <tr class="separator:a6b244dcb7ac9322fb014897a022a43df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b72ea5508d81d173dbdb908b9de6e7"><td class="memItemLeft" align="right" valign="top"><a id="a91b72ea5508d81d173dbdb908b9de6e7"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:a91b72ea5508d81d173dbdb908b9de6e7"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_request.html#a91b72ea5508d81d173dbdb908b9de6e7">reserved</a></td></tr>
 <tr class="separator:a91b72ea5508d81d173dbdb908b9de6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Request message from the host to get a list of all known neighboring RangeNet nodes and other data. </p>
+<p>While the number of neighbors a unit might see has no limit, the number of neighbors which can be reported with this message is limited to 32. This limit is set by a buffer size constraint. While this constraint is arbitrary, it is currently a hard limit. If this becomes an issue, the user can either change the sorting arrangement to identify the closest 32 or the most recent 32. </p><dl class="section note"><dt>Note</dt><dd>If this is not satisfactory, then the user should consider using the <a class="el" href="structrn_msg___get_small_neighbor_database_request.html" title="Request message from the host to get the radio&#39;s current Small Neighbor Database.">rnMsg_GetSmallNeighborDatabaseRequest</a> command. This command reports less data per neighbor and can therefore accommodate up to 80 neighbors. With this command it is also possible to sort by Node ID, range, or age. </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa5a092766eb6425a4c7374b0e19787ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a092766eb6425a4c7374b0e19787ef">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseRequest::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3005) for the GetFullNeighborDatabaseRequest packet </p>
+
+</div>
+</div>
+<a id="aed702c5dcae4190c4e431f3823dc759d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed702c5dcae4190c4e431f3823dc759d">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseRequest::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="ae3b45b05922b78a1597cc04c51a2a012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3b45b05922b78a1597cc04c51a2a012">&#9670;&nbsp;</a></span>maxNeighborEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetFullNeighborDatabaseRequest::maxNeighborEntries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The maximum number of entries to be returned by the radio. Set to maximum of 32 to get all the entries </p>
+
+</div>
+</div>
+<a id="a6b244dcb7ac9322fb014897a022a43df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b244dcb7ac9322fb014897a022a43df">&#9670;&nbsp;</a></span>sortType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetFullNeighborDatabaseRequest::sortType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Order in which the entries will be listed.</p>
+<p>• 0 = Sort by Node ID, lowest first</p>
+<p>• 1 = Sort by Range, closest first</p>
+<p>• 2 = Sort by Range Age, most recent first </p>
+
+</div>
+</div>
+<a id="a91b72ea5508d81d173dbdb908b9de6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b72ea5508d81d173dbdb908b9de6e7">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseRequest::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

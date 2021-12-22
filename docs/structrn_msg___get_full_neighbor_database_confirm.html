@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_GetFullNeighborDatabaseConfirm Struct Reference</title>
+<title>P4XX UWB API: rnMsg_GetFullNeighborDatabaseConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,39 +101,182 @@ $(document).ready(function(){initNavTree('structrn_msg___get_full_neighbor_datab
 <div class="title">rnMsg_GetFullNeighborDatabaseConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that contains Neighbor Database info and the status of GetFullNeighborDatabaseRequest.  
+ <a href="structrn_msg___get_full_neighbor_database_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab65320236db3b8eb7f13b2620ddf0aaa"><td class="memItemLeft" align="right" valign="top"><a id="ab65320236db3b8eb7f13b2620ddf0aaa"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:ab65320236db3b8eb7f13b2620ddf0aaa"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#ab65320236db3b8eb7f13b2620ddf0aaa">msgType</a></td></tr>
 <tr class="separator:ab65320236db3b8eb7f13b2620ddf0aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20699cdbaa7578745b39da5c8527ccde"><td class="memItemLeft" align="right" valign="top"><a id="a20699cdbaa7578745b39da5c8527ccde"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:a20699cdbaa7578745b39da5c8527ccde"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#a20699cdbaa7578745b39da5c8527ccde">msgId</a></td></tr>
 <tr class="separator:a20699cdbaa7578745b39da5c8527ccde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57dca248604ead7aaa6eb7ecbb2d8faa"><td class="memItemLeft" align="right" valign="top"><a id="a57dca248604ead7aaa6eb7ecbb2d8faa"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>numNeighborEntries</b></td></tr>
+<tr class="memitem:a7b422949598da00a4cc7e2ff48f01114"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#a7b422949598da00a4cc7e2ff48f01114">localNodeId</a></td></tr>
+<tr class="separator:a7b422949598da00a4cc7e2ff48f01114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57dca248604ead7aaa6eb7ecbb2d8faa"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#a57dca248604ead7aaa6eb7ecbb2d8faa">numNeighborEntries</a></td></tr>
 <tr class="separator:a57dca248604ead7aaa6eb7ecbb2d8faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aa519057275015febe065b9bba54c49"><td class="memItemLeft" align="right" valign="top"><a id="a3aa519057275015febe065b9bba54c49"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>sortType</b></td></tr>
+<tr class="memitem:a3aa519057275015febe065b9bba54c49"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#a3aa519057275015febe065b9bba54c49">sortType</a></td></tr>
 <tr class="separator:a3aa519057275015febe065b9bba54c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a032df9410c9df6675290d0fafbe426c5"><td class="memItemLeft" align="right" valign="top"><a id="a032df9410c9df6675290d0fafbe426c5"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:a032df9410c9df6675290d0fafbe426c5"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#a032df9410c9df6675290d0fafbe426c5">reserved</a></td></tr>
 <tr class="separator:a032df9410c9df6675290d0fafbe426c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1991c3bd048909af6f9be71bddbf17a"><td class="memItemLeft" align="right" valign="top"><a id="ae1991c3bd048909af6f9be71bddbf17a"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>timestamp</b></td></tr>
+<tr class="memitem:ae1991c3bd048909af6f9be71bddbf17a"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#ae1991c3bd048909af6f9be71bddbf17a">timestamp</a></td></tr>
 <tr class="separator:ae1991c3bd048909af6f9be71bddbf17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7f2706edfa61121953d318ef5abdae3"><td class="memItemLeft" align="right" valign="top"><a id="aa7f2706edfa61121953d318ef5abdae3"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="memitem:aa7f2706edfa61121953d318ef5abdae3"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#aa7f2706edfa61121953d318ef5abdae3">status</a></td></tr>
 <tr class="separator:aa7f2706edfa61121953d318ef5abdae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace993edad7b144b55c701c3de3c2f969"><td class="memItemLeft" align="right" valign="top"><a id="ace993edad7b144b55c701c3de3c2f969"></a>
-<a class="el" href="structrn_full_neighbor_database_entry__t.html">rnFullNeighborDatabaseEntry_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>neighbors</b> [RN_FULL_NEIGHBOR_DATABASE_MAX_ENTRY_COUNT]</td></tr>
+<tr class="memitem:ace993edad7b144b55c701c3de3c2f969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrn_full_neighbor_database_entry__t.html">rnFullNeighborDatabaseEntry_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_full_neighbor_database_confirm.html#ace993edad7b144b55c701c3de3c2f969">neighbors</a> [RN_FULL_NEIGHBOR_DATABASE_MAX_ENTRY_COUNT]</td></tr>
 <tr class="separator:ace993edad7b144b55c701c3de3c2f969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that contains Neighbor Database info and the status of GetFullNeighborDatabaseRequest. </p>
+<dl class="section note"><dt>Note</dt><dd>This message may also be sent automatically if the Autosend flags and interval are appropriately configured in the RangeNet configuration. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>Corresponding Message: <a class="el" href="structrn_msg___get_full_neighbor_database_request.html" title="Request message from the host to get a list of all known neighboring RangeNet nodes and other data.">rnMsg_GetFullNeighborDatabaseRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab65320236db3b8eb7f13b2620ddf0aaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65320236db3b8eb7f13b2620ddf0aaa">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3105) for the GetFullNeighborDatabaseConfirm packet </p>
+
+</div>
+</div>
+<a id="a20699cdbaa7578745b39da5c8527ccde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20699cdbaa7578745b39da5c8527ccde">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="a7b422949598da00a4cc7e2ff48f01114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b422949598da00a4cc7e2ff48f01114">&#9670;&nbsp;</a></span>localNodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_GetFullNeighborDatabaseConfirm::localNodeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Node ID of the local radio </p>
+
+</div>
+</div>
+<a id="a57dca248604ead7aaa6eb7ecbb2d8faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57dca248604ead7aaa6eb7ecbb2d8faa">&#9670;&nbsp;</a></span>numNeighborEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetFullNeighborDatabaseConfirm::numNeighborEntries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of neighbors in this database message </p>
+
+</div>
+</div>
+<a id="a3aa519057275015febe065b9bba54c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aa519057275015febe065b9bba54c49">&#9670;&nbsp;</a></span>sortType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_GetFullNeighborDatabaseConfirm::sortType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Order in which the entries are listed.</p>
+<p>• 0 = Sorted by Node ID, lowest first</p>
+<p>• 1 = Sorted by Range, closest first</p>
+<p>• 2 = Sorted by Range Age, most recent first </p>
+
+</div>
+</div>
+<a id="a032df9410c9df6675290d0fafbe426c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a032df9410c9df6675290d0fafbe426c5">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetFullNeighborDatabaseConfirm::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="ae1991c3bd048909af6f9be71bddbf17a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1991c3bd048909af6f9be71bddbf17a">&#9670;&nbsp;</a></span>timestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_GetFullNeighborDatabaseConfirm::timestamp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Time in milliseconds since radio boot at the time this message was sent </p>
+
+</div>
+</div>
+<a id="aa7f2706edfa61121953d318ef5abdae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f2706edfa61121953d318ef5abdae3">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_GetFullNeighborDatabaseConfirm::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Status of GetFullNeighborDatabaseRequest. (0=Successful) </p><dl class="section see"><dt>See also</dt><dd>Table of all possible Confirm message status codes and their meanings: <a class="el" href="subsystem1.html#subsystemsection4">Code Channel</a> </dd></dl>
+
+</div>
+</div>
+<a id="ace993edad7b144b55c701c3de3c2f969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace993edad7b144b55c701c3de3c2f969">&#9670;&nbsp;</a></span>neighbors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structrn_full_neighbor_database_entry__t.html">rnFullNeighborDatabaseEntry_t</a> rnMsg_GetFullNeighborDatabaseConfirm::neighbors[RN_FULL_NEIGHBOR_DATABASE_MAX_ENTRY_COUNT]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Neighbor info. Only the count of numNeighborEntries entries are included in this variable-length message. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

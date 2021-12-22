@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['vpeak_746',['vPeak',['../structrcrm_msg___full_scan_info.html#abd1c6c917dafaa034b2390d249605612',1,'rcrmMsg_FullScanInfo::vPeak()'],['../structrcrm_full_scan_ex_metadata.html#a95a9b94a4f19be2c1b12a1103ee61edb',1,'rcrmFullScanExMetadata::vPeak()'],['../structrcm_msg___full_range_info.html#ae344d04fff6c77ccba27f83b5a8f0397',1,'rcmMsg_FullRangeInfo::vPeak()'],['../structrcrm_msg___scan_info.html#a9c6dd8eb378be5bdb49a5a0771884f9b',1,'rcrmMsg_ScanInfo::vPeak()']]]
+  ['uwbkernelversionbuild_895',['uwbKernelVersionBuild',['../structrcrm_msg___get_status_info_confirm.html#a2d72659885504a0eef81a19636946d0e',1,'rcrmMsg_GetStatusInfoConfirm']]],
+  ['uwbkernelversionmajor_896',['uwbKernelVersionMajor',['../structrcrm_msg___get_status_info_confirm.html#aeef143387668f79fe1d86352c5b54b7d',1,'rcrmMsg_GetStatusInfoConfirm']]],
+  ['uwbkernelversionminor_897',['uwbKernelVersionMinor',['../structrcrm_msg___get_status_info_confirm.html#aae6e9410507cc02f23440f05ac61e9b5',1,'rcrmMsg_GetStatusInfoConfirm']]]
 ];

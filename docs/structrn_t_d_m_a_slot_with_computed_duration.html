@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnTDMASlotWithComputedDuration Struct Reference</title>
+<title>P4XX UWB API: rnTDMASlotWithComputedDuration Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,21 +101,58 @@ $(document).ready(function(){initNavTree('structrn_t_d_m_a_slot_with_computed_du
 <div class="title">rnTDMASlotWithComputedDuration Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Slot defintion along with computed duration. Used in messages containing slot info sent from the radio to the host app.  
+ <a href="structrn_t_d_m_a_slot_with_computed_duration.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a52505ac49ad33e9473c5478777108c12"><td class="memItemLeft" align="right" valign="top"><a id="a52505ac49ad33e9473c5478777108c12"></a>
-<a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a>&#160;</td><td class="memItemRight" valign="bottom"><b>slot</b></td></tr>
+<tr class="memitem:a52505ac49ad33e9473c5478777108c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html#a52505ac49ad33e9473c5478777108c12">slot</a></td></tr>
 <tr class="separator:a52505ac49ad33e9473c5478777108c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23816cf86088c996c2d5a68b5afcca2"><td class="memItemLeft" align="right" valign="top"><a id="aa23816cf86088c996c2d5a68b5afcca2"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>minimumDurationMicroseconds</b></td></tr>
+<tr class="memitem:aa23816cf86088c996c2d5a68b5afcca2"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_t_d_m_a_slot_with_computed_duration.html#aa23816cf86088c996c2d5a68b5afcca2">minimumDurationMicroseconds</a></td></tr>
 <tr class="separator:aa23816cf86088c996c2d5a68b5afcca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Slot defintion along with computed duration. Used in messages containing slot info sent from the radio to the host app. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a52505ac49ad33e9473c5478777108c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52505ac49ad33e9473c5478777108c12">&#9670;&nbsp;</a></span>slot</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structrn_t_d_m_a_slot_definition.html">rnTDMASlotDefinition</a> rnTDMASlotWithComputedDuration::slot</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_slot_definition.html" title="TDMA slot map message structure and definition.">rnTDMASlotDefinition</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa23816cf86088c996c2d5a68b5afcca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa23816cf86088c996c2d5a68b5afcca2">&#9670;&nbsp;</a></span>minimumDurationMicroseconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnTDMASlotWithComputedDuration::minimumDurationMicroseconds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Minimum slot duration in microseconds, computed by the radio. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

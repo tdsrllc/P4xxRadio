@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locConfiguration Struct Reference</title>
+<title>P4XX UWB API: locConfiguration Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,48 +101,231 @@ $(document).ready(function(){initNavTree('structloc_configuration.html',''); ini
 <div class="title">locConfiguration Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Message structure used to build <a class="el" href="structloc_msg___set_config_request.html" title="Request message from the host to set the radio&#39;s Location parameters.">locMsg_SetConfigRequest</a> and <a class="el" href="structloc_msg___get_config_confirm.html" title="Confirm message from the radio that contains the Location configuration information and status of Get...">locMsg_GetConfigConfirm</a>.  
+ <a href="structloc_configuration.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a773a9dca60e5b6749cc7862eac4ea6ec"><td class="memItemLeft" align="right" valign="top"><a id="a773a9dca60e5b6749cc7862eac4ea6ec"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b></td></tr>
+<tr class="memitem:a773a9dca60e5b6749cc7862eac4ea6ec"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#a773a9dca60e5b6749cc7862eac4ea6ec">flags</a></td></tr>
 <tr class="separator:a773a9dca60e5b6749cc7862eac4ea6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad93da7733041d0337fb3897e495c8382"><td class="memItemLeft" align="right" valign="top"><a id="ad93da7733041d0337fb3897e495c8382"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>bootMode</b></td></tr>
+<tr class="memitem:ad93da7733041d0337fb3897e495c8382"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#ad93da7733041d0337fb3897e495c8382">bootMode</a></td></tr>
 <tr class="separator:ad93da7733041d0337fb3897e495c8382"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62020413dd82e28f1812d4def7aee49e"><td class="memItemLeft" align="right" valign="top"><a id="a62020413dd82e28f1812d4def7aee49e"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>autosendLocDbSortAndFilter</b></td></tr>
+<tr class="memitem:a62020413dd82e28f1812d4def7aee49e"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#a62020413dd82e28f1812d4def7aee49e">autosendLocDbSortAndFilter</a></td></tr>
 <tr class="separator:a62020413dd82e28f1812d4def7aee49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21264c3c6d0451edd22b37f7caede355"><td class="memItemLeft" align="right" valign="top"><a id="a21264c3c6d0451edd22b37f7caede355"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>autosendLocDbIntervalMs</b></td></tr>
+<tr class="memitem:a21264c3c6d0451edd22b37f7caede355"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#a21264c3c6d0451edd22b37f7caede355">autosendLocDbIntervalMs</a></td></tr>
 <tr class="separator:a21264c3c6d0451edd22b37f7caede355"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac89f2c7ed1e02f2f2463f1937a72bfee"><td class="memItemLeft" align="right" valign="top"><a id="ac89f2c7ed1e02f2f2463f1937a72bfee"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>solverMaxREE</b></td></tr>
+<tr class="memitem:ac89f2c7ed1e02f2f2463f1937a72bfee"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#ac89f2c7ed1e02f2f2463f1937a72bfee">solverMaxREE</a></td></tr>
 <tr class="separator:ac89f2c7ed1e02f2f2463f1937a72bfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a69852548ba10da4162a211e35a8b61"><td class="memItemLeft" align="right" valign="top"><a id="a6a69852548ba10da4162a211e35a8b61"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>solverMaxGDOP</b></td></tr>
+<tr class="memitem:a6a69852548ba10da4162a211e35a8b61"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#a6a69852548ba10da4162a211e35a8b61">solverMaxGDOP</a></td></tr>
 <tr class="separator:a6a69852548ba10da4162a211e35a8b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1b8a72877f643db6a62cda08e921dfb"><td class="memItemLeft" align="right" valign="top"><a id="ab1b8a72877f643db6a62cda08e921dfb"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>gdopAnchorHistoryDepth</b></td></tr>
+<tr class="memitem:ab1b8a72877f643db6a62cda08e921dfb"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#ab1b8a72877f643db6a62cda08e921dfb">gdopAnchorHistoryDepth</a></td></tr>
 <tr class="separator:ab1b8a72877f643db6a62cda08e921dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1e165798178f68493e6e87ab870c85a"><td class="memItemLeft" align="right" valign="top"><a id="af1e165798178f68493e6e87ab870c85a"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>solverNLSToKalmanUpdates</b></td></tr>
+<tr class="memitem:af1e165798178f68493e6e87ab870c85a"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#af1e165798178f68493e6e87ab870c85a">solverNLSToKalmanUpdates</a></td></tr>
 <tr class="separator:af1e165798178f68493e6e87ab870c85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a842d140a0159a60e6f443b9f870be6"><td class="memItemLeft" align="right" valign="top"><a id="a3a842d140a0159a60e6f443b9f870be6"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>kalmanSigmaAccel</b></td></tr>
+<tr class="memitem:a3a842d140a0159a60e6f443b9f870be6"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#a3a842d140a0159a60e6f443b9f870be6">kalmanSigmaAccel</a></td></tr>
 <tr class="separator:a3a842d140a0159a60e6f443b9f870be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa499d1ef0ff9531a6fadd8d1de3fb97c"><td class="memItemLeft" align="right" valign="top"><a id="aa499d1ef0ff9531a6fadd8d1de3fb97c"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>nlsSolverOutputBoxcarFilterDepth</b></td></tr>
+<tr class="memitem:aa499d1ef0ff9531a6fadd8d1de3fb97c"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#aa499d1ef0ff9531a6fadd8d1de3fb97c">nlsSolverOutputBoxcarFilterDepth</a></td></tr>
 <tr class="separator:aa499d1ef0ff9531a6fadd8d1de3fb97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa18d00b6d8e7968d7dbb3d45eaa6a08"><td class="memItemLeft" align="right" valign="top"><a id="aaa18d00b6d8e7968d7dbb3d45eaa6a08"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:aaa18d00b6d8e7968d7dbb3d45eaa6a08"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_configuration.html#aaa18d00b6d8e7968d7dbb3d45eaa6a08">reserved</a></td></tr>
 <tr class="separator:aaa18d00b6d8e7968d7dbb3d45eaa6a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Message structure used to build <a class="el" href="structloc_msg___set_config_request.html" title="Request message from the host to set the radio&#39;s Location parameters.">locMsg_SetConfigRequest</a> and <a class="el" href="structloc_msg___get_config_confirm.html" title="Confirm message from the radio that contains the Location configuration information and status of Get...">locMsg_GetConfigConfirm</a>. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a773a9dca60e5b6749cc7862eac4ea6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a773a9dca60e5b6749cc7862eac4ea6ec">&#9670;&nbsp;</a></span>flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locConfiguration::flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Location config flags:</p>
+<p>• Bits 0 – 1 : Controls how the Location Info message is sent from the radio to the Host </p><pre class="fragment">- 0 : None – disables the sending of Location Info messages to the Host
+
+- 1 : Successful – only sends those messages with a Solver Error Code of 0 (successful)
+
+- 2 : All – sends all Location Info messages regardless of Solver Error Code
+</pre><p>• Bits 2 – 3 : Controls how the Range Info message is sent from the radio to the Host </p><pre class="fragment">- 0 : None – disables the sending of the Range Info message to the Host
+
+- 1 : Successful – only sends those message with a Status of 0 (successful)
+
+- 2 : All – sends all Range Info messages regardless of the Status
+</pre><p>• Bit 4 : Report ELLs – enabling this flag will cause the radio to send received ELL or ELLEX messages to the Host</p>
+<p>• Bit 5 : Report ELRs – enabling this flag will cause the radio to send received ELR messages to the Host</p>
+<p>• Bits 6-8 : Reserved; set to 0</p>
+<p>• Bit 9 : Allow non-line-of-sight ranges into the solver </p><pre class="fragment">- 0 : NLOS ranges are not passed to the solver (line-of-sight ranges only) (default)
+
+- 1 : NLOS ranges are passed to the solver.
+</pre> 
+</div>
+</div>
+<a id="ad93da7733041d0337fb3897e495c8382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93da7733041d0337fb3897e495c8382">&#9670;&nbsp;</a></span>bootMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::bootMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the Location Operation Mode the radio will start in on power-up or reboot. </p><dl class="section note"><dt>Note</dt><dd>The radio will ignore this setting if its boot-up mode is already set to Ranging or Networking.</dd></dl>
+<p>Modes:</p>
+<p>0 : Idle – the radio will start in the Idle Mode.</p>
+<p>1 : Autosurvey – the radio will start in the Autosurvey Mode. In this mode radios defined as Anchors in the Location Map will range to each other and Mobile radios will remain idle.</p>
+<p>2 : Tracking – the radio will start in the Tracking Mode. This is the operational tracking mode where radios defined as Mobiles in the Location Map will range to Anchors. </p>
+
+</div>
+</div>
+<a id="a62020413dd82e28f1812d4def7aee49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62020413dd82e28f1812d4def7aee49e">&#9670;&nbsp;</a></span>autosendLocDbSortAndFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::autosendLocDbSortAndFilter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Location database reporting sorting and filter flags 0 - sort by Node ID 1 - sort by distance </p>
+
+</div>
+</div>
+<a id="a21264c3c6d0451edd22b37f7caede355"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21264c3c6d0451edd22b37f7caede355">&#9670;&nbsp;</a></span>autosendLocDbIntervalMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locConfiguration::autosendLocDbIntervalMs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>How often to send the location database in millliseconds (if the relevant reporting flag is enabled). </p>
+
+</div>
+</div>
+<a id="ac89f2c7ed1e02f2f2463f1937a72bfee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac89f2c7ed1e02f2f2463f1937a72bfee">&#9670;&nbsp;</a></span>solverMaxREE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locConfiguration::solverMaxREE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum Range Error Estimate(REE) in millimeters before the range is rejected. </p><dl class="section note"><dt>Note</dt><dd>Set to 0 to disable filter. Default is 100mm. </dd></dl>
+
+</div>
+</div>
+<a id="a6a69852548ba10da4162a211e35a8b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a69852548ba10da4162a211e35a8b61">&#9670;&nbsp;</a></span>solverMaxGDOP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locConfiguration::solverMaxGDOP</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum GDOP of the location solution before the system triggers rebirth. The value passed to and from the radio is a scaled integer and should be divided by 100 to relate to notional GDOP values. </p><dl class="section note"><dt>Note</dt><dd>Default is 4.0 </dd></dl>
+
+</div>
+</div>
+<a id="ab1b8a72877f643db6a62cda08e921dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b8a72877f643db6a62cda08e921dfb">&#9670;&nbsp;</a></span>gdopAnchorHistoryDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::gdopAnchorHistoryDepth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>History depth for anchors used in determining GDOP. Larger values allow the Location solver to survive bursts of problematic ranges better. </p><dl class="section note"><dt>Note</dt><dd>Default and minimum are 4; max is 32. </dd></dl>
+
+</div>
+</div>
+<a id="af1e165798178f68493e6e87ab870c85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e165798178f68493e6e87ab870c85a">&#9670;&nbsp;</a></span>solverNLSToKalmanUpdates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::solverNLSToKalmanUpdates</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of successful nonlinear-least-squares solver (geometric solver) updates that must occur before transitioning to the Kalman solver. </p><dl class="section note"><dt>Note</dt><dd>default is 4 </dd></dl>
+
+</div>
+</div>
+<a id="a3a842d140a0159a60e6f443b9f870be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a842d140a0159a60e6f443b9f870be6">&#9670;&nbsp;</a></span>kalmanSigmaAccel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locConfiguration::kalmanSigmaAccel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Kalman model confidence weight relative to measurement weight. Set to 100 to give equal weight to both the Kalman model and to range measurements. A smaller value indicates more confidence in the Kalman model (which results in a greater filtering effect of the positions); a larger value indicates more confidence in the range measurements (which results in slightly faster convergence to new positions). Set to 0 to use default value of 100. </p>
+
+</div>
+</div>
+<a id="aa499d1ef0ff9531a6fadd8d1de3fb97c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa499d1ef0ff9531a6fadd8d1de3fb97c">&#9670;&nbsp;</a></span>nlsSolverOutputBoxcarFilterDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::nlsSolverOutputBoxcarFilterDepth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Moving average boxcar filter depth for Geometric solver modes. Use 0 (or 1) to disable the boxcar filter. Valid values are 0 to 64. </p><dl class="section note"><dt>Note</dt><dd>Default value is 4. </dd></dl>
+
+</div>
+</div>
+<a id="aaa18d00b6d8e7968d7dbb3d45eaa6a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa18d00b6d8e7968d7dbb3d45eaa6a08">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locConfiguration::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

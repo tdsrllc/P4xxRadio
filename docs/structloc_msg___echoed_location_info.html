@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: locMsg_EchoedLocationInfo Struct Reference</title>
+<title>P4XX UWB API: locMsg_EchoedLocationInfo Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,49 +101,193 @@ $(document).ready(function(){initNavTree('structloc_msg___echoed_location_info.h
 <div class="title">locMsg_EchoedLocationInfo Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Info message that echoes a portion of location info.  
+ <a href="structloc_msg___echoed_location_info.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a37e24f94b0ee775a8c1d4b741c305307"><td class="memItemLeft" align="right" valign="top"><a id="a37e24f94b0ee775a8c1d4b741c305307"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:a37e24f94b0ee775a8c1d4b741c305307"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#a37e24f94b0ee775a8c1d4b741c305307">msgType</a></td></tr>
 <tr class="separator:a37e24f94b0ee775a8c1d4b741c305307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adec348402c43393ded76952d05f35db6"><td class="memItemLeft" align="right" valign="top"><a id="adec348402c43393ded76952d05f35db6"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:adec348402c43393ded76952d05f35db6"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#adec348402c43393ded76952d05f35db6">msgId</a></td></tr>
 <tr class="separator:adec348402c43393ded76952d05f35db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a822cc2d860b1f239b018beaa839941a2"><td class="memItemLeft" align="right" valign="top"><a id="a822cc2d860b1f239b018beaa839941a2"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>nodeId</b></td></tr>
+<tr class="memitem:a822cc2d860b1f239b018beaa839941a2"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#a822cc2d860b1f239b018beaa839941a2">nodeId</a></td></tr>
 <tr class="separator:a822cc2d860b1f239b018beaa839941a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a930109e266f9f56b46801ff74ba27c60"><td class="memItemLeft" align="right" valign="top"><a id="a930109e266f9f56b46801ff74ba27c60"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>remoteTimestamp</b></td></tr>
+<tr class="memitem:a930109e266f9f56b46801ff74ba27c60"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#a930109e266f9f56b46801ff74ba27c60">remoteTimestamp</a></td></tr>
 <tr class="separator:a930109e266f9f56b46801ff74ba27c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef20ece082007d7e2582d4f182bea381"><td class="memItemLeft" ><a id="aef20ece082007d7e2582d4f182bea381"></a>
 struct {</td></tr>
-<tr class="memitem:a320b7de6228863bd711ebd0c0e19f9d9"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>x</b></td></tr>
+<tr class="memitem:a320b7de6228863bd711ebd0c0e19f9d9"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_msg___echoed_location_info.html#a37898102869a0864490a7eb0ec7f47b0">x</a></td></tr>
 <tr class="separator:a320b7de6228863bd711ebd0c0e19f9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e7048759dc4dd76dcd6883fcd3c35dd"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>y</b></td></tr>
+<tr class="memitem:a5e7048759dc4dd76dcd6883fcd3c35dd"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_msg___echoed_location_info.html#aae60f3ed57a5885e1964b3c8a8d3cf8c">y</a></td></tr>
 <tr class="separator:a5e7048759dc4dd76dcd6883fcd3c35dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40d3f4aa7c54a9c9afb6c43898b7fbee"><td class="memItemLeft" >
-&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<b>z</b></td></tr>
+<tr class="memitem:a40d3f4aa7c54a9c9afb6c43898b7fbee"><td class="memItemLeft" >&#160;&#160;&#160;rcrm_int32_t&#160;&#160;&#160;<a class="el" href="structloc_msg___echoed_location_info.html#ae8936f75953acc90b7a75a03193bc14e">z</a></td></tr>
 <tr class="separator:a40d3f4aa7c54a9c9afb6c43898b7fbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef20ece082007d7e2582d4f182bea381"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><b>loc_mm</b></td></tr>
 <tr class="separator:aef20ece082007d7e2582d4f182bea381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270105f123bbb810c7a915b6a27a60c8"><td class="memItemLeft" align="right" valign="top"><a id="a270105f123bbb810c7a915b6a27a60c8"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>gdop</b></td></tr>
+<tr class="memitem:a270105f123bbb810c7a915b6a27a60c8"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#a270105f123bbb810c7a915b6a27a60c8">gdop</a></td></tr>
 <tr class="separator:a270105f123bbb810c7a915b6a27a60c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2f078835f20d269024924d8e42182f5"><td class="memItemLeft" align="right" valign="top"><a id="ae2f078835f20d269024924d8e42182f5"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>solverMode</b></td></tr>
+<tr class="memitem:ae2f078835f20d269024924d8e42182f5"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structloc_msg___echoed_location_info.html#ae2f078835f20d269024924d8e42182f5">solverMode</a></td></tr>
 <tr class="separator:ae2f078835f20d269024924d8e42182f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d9ae0025d11d7ef9e1d84563f489ae1"><td class="memItemLeft" align="right" valign="top"><a id="a0d9ae0025d11d7ef9e1d84563f489ae1"></a>
 rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>solverErrorCode</b></td></tr>
 <tr class="separator:a0d9ae0025d11d7ef9e1d84563f489ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Info message that echoes a portion of location info. </p>
+<p>when enabled via the Send ELL flag in the Location Map, it will include that location in its next range request packet. This allows other radios that hear the request (but are not the target of the request) to know the location of the other Mobiles in the system </p><dl class="section note"><dt>Note</dt><dd>that this message includes a subset of the information available from the <a class="el" href="structloc_msg___location_info.html" title="Info message that contains Location information from the radio.">locMsg_LocationInfo</a> message. For the full set of information available, see the <a class="el" href="structloc_msg___echoed_location_ex_info.html" title="Info message that echoes all of location info.">locMsg_EchoedLocationExInfo</a> message </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a37e24f94b0ee775a8c1d4b741c305307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e24f94b0ee775a8c1d4b741c305307">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_EchoedLocationInfo::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x5202) for the EchoedLocationInfo packet </p>
+
+</div>
+</div>
+<a id="adec348402c43393ded76952d05f35db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec348402c43393ded76952d05f35db6">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_EchoedLocationInfo::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages.</p>
+<p>For a more in depth description, check out <a class="el" href="subsystem1.html#subsystemsection1">Message ID</a> </p>
+
+</div>
+</div>
+<a id="a822cc2d860b1f239b018beaa839941a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822cc2d860b1f239b018beaa839941a2">&#9670;&nbsp;</a></span>nodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locMsg_EchoedLocationInfo::nodeId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Node ID of radio sending this message </p>
+
+</div>
+</div>
+<a id="a930109e266f9f56b46801ff74ba27c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930109e266f9f56b46801ff74ba27c60">&#9670;&nbsp;</a></span>remoteTimestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t locMsg_EchoedLocationInfo::remoteTimestamp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Milliseconds from boot to time of location computed </p>
+
+</div>
+</div>
+<a id="a37898102869a0864490a7eb0ec7f47b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37898102869a0864490a7eb0ec7f47b0">&#9670;&nbsp;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locMsg_EchoedLocationInfo::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The X component of the Mobile location in millimeters </p>
+
+</div>
+</div>
+<a id="aae60f3ed57a5885e1964b3c8a8d3cf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae60f3ed57a5885e1964b3c8a8d3cf8c">&#9670;&nbsp;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locMsg_EchoedLocationInfo::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The Y component of the Mobile location in millimeters </p>
+
+</div>
+</div>
+<a id="ae8936f75953acc90b7a75a03193bc14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8936f75953acc90b7a75a03193bc14e">&#9670;&nbsp;</a></span>z</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_int32_t locMsg_EchoedLocationInfo::z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The Z component of the Mobile location in millimeters </p>
+
+</div>
+</div>
+<a id="a270105f123bbb810c7a915b6a27a60c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270105f123bbb810c7a915b6a27a60c8">&#9670;&nbsp;</a></span>gdop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t locMsg_EchoedLocationInfo::gdop</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bits 0 – 11 (lower 3 nibbles):</p>
+<p>-Geometric Dilution of Precision, taken from the GPS community, its represents the quality of the geometry of the mobile location relative to the Anchors.</p>
+<p>Bits 12 – 15 (uppermost nibble): The number of Anchors used to compute GDOP. </p>
+
+</div>
+</div>
+<a id="ae2f078835f20d269024924d8e42182f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2f078835f20d269024924d8e42182f5">&#9670;&nbsp;</a></span>solverMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t locMsg_EchoedLocationInfo::solverMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Indicates how far along the initialization-to-steady-running prcoess the solver has progressed. Note that the final stage of the solver depends on the configured solver mode (Kalman vs. Geometric, 2D vs 3D).</p>
+<p>0 : Initialized from Location Map – the first stage of the solver that indicates the coordinates from the Location Map will be passed on to the next stage.</p>
+<p>1 : Nonlinear Least Squares (2D) – the geometric solver that is used to provide an initial condition to the Kalman stage, or is the standard solver when the solver mode is Geometric 2D. This is the stage the solver will return to for rebirth (when the GDOP threshold is exceeded).</p>
+<p>2 : Kalman (2D) – this is the normal, steady-state stage of the solver. With each new range, the solver will fold that new range into its motion model and compute a new location.</p>
+<p>3 : Nonlinear Least Squares (3D) – the geometric solver that is used to provide an initial condition to the Kalman stage, or is the standard solver when the solver mode is Geometric 3D. This is the stage the solver will return to for rebirth (when the GDOP threshold is exceeded).</p>
+<p>4 : Kalman (3D) – this is the normal, steady-state stage of the solver. With each new range, the solver will fold that new range into its motion model and compute a new location. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_location_8h_source.html">hostInterfaceLocation.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

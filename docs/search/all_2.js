@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['5_2e_20ranging_20parameter_20descriptions_20and_20confirm_20status_2',['5. Ranging Parameter Descriptions and Confirm Status',['../subsystem1.html',1,'']]]
+  ['catconfiguration_5ft_26',['catConfiguration_t',['../structcat_configuration__t.html',1,'']]],
+  ['catmsg_5fcontrolconfirm_27',['catMsg_ControlConfirm',['../structcat_msg___control_confirm.html',1,'']]],
+  ['catmsg_5fcontrolrequest_28',['catMsg_ControlRequest',['../structcat_msg___control_request.html',1,'']]],
+  ['catmsg_5fgetconfigconfirm_29',['catMsg_GetConfigConfirm',['../structcat_msg___get_config_confirm.html',1,'']]],
+  ['catmsg_5fgetconfigrequest_30',['catMsg_GetConfigRequest',['../structcat_msg___get_config_request.html',1,'']]],
+  ['catmsg_5fgetstatsconfirm_31',['catMsg_GetStatsConfirm',['../structcat_msg___get_stats_confirm.html',1,'']]],
+  ['catmsg_5fgetstatsexconfirm_32',['catMsg_GetStatsExConfirm',['../structcat_msg___get_stats_ex_confirm.html',1,'']]],
+  ['catmsg_5fgetstatsexrequest_33',['catMsg_GetStatsExRequest',['../structcat_msg___get_stats_ex_request.html',1,'']]],
+  ['catmsg_5fgetstatsrequest_34',['catMsg_GetStatsRequest',['../structcat_msg___get_stats_request.html',1,'']]],
+  ['catmsg_5fresetstatsconfirm_35',['catMsg_ResetStatsConfirm',['../structcat_msg___reset_stats_confirm.html',1,'']]],
+  ['catmsg_5fresetstatsrequest_36',['catMsg_ResetStatsRequest',['../structcat_msg___reset_stats_request.html',1,'']]],
+  ['catmsg_5fsetconfigconfirm_37',['catMsg_SetConfigConfirm',['../structcat_msg___set_config_confirm.html',1,'']]],
+  ['catmsg_5fsetconfigrequest_38',['catMsg_SetConfigRequest',['../structcat_msg___set_config_request.html',1,'']]],
+  ['catstats_5ft_39',['catStats_t',['../structcat_stats__t.html',1,'']]],
+  ['catstatsex_5ft_40',['catStatsEx_t',['../structcat_stats_ex__t.html',1,'']]],
+  ['channel_41',['channel',['../structloc_t_d_m_a_slot_description.html#af22cb66f54c6d4cf2684164d13d7ba17',1,'locTDMASlotDescription']]],
+  ['checklockfailures_42',['checklockFailures',['../structcat_stats_ex__t.html#afcd41dd2bb74fe9d6afe78d11e215f71',1,'catStatsEx_t']]],
+  ['cmdmsgtype_43',['cmdMsgType',['../structloc_msg___o_t_a_ack_info.html#aaae21c7a4bba6fa08f6e18ea9d81451b',1,'locMsg_OTAAckInfo']]],
+  ['coarserangeerrest_44',['coarseRangeErrEst',['../structrcm_msg___full_range_info.html#ad340e85a6c117b500a99622209502bca',1,'rcmMsg_FullRangeInfo']]],
+  ['coarserangemm_45',['coarseRangeMm',['../structrcm_msg___full_range_info.html#a04db119093a0817a4cc435a13334870f',1,'rcmMsg_FullRangeInfo']]],
+  ['coarsetofinbins_46',['coarseTOFInBins',['../structrcm_msg___full_range_info.html#a70a3a1e6f844eb62c61fa40d24ac8c21',1,'rcmMsg_FullRangeInfo']]],
+  ['codechannel_47',['codeChannel',['../structrcm_configuration.html#a9494e490d0e2e95e02d1c7f4949b30b3',1,'rcmConfiguration::codeChannel()'],['../structrn_t_d_m_a_slot_definition.html#a15eb970817dd29c91414f81f8cbc3133',1,'rnTDMASlotDefinition::codeChannel()'],['../structmrm_configuration.html#a319f292b1b761a12e0d18720c47dbb4d',1,'mrmConfiguration::codeChannel()'],['../structcat_configuration__t.html#a5e872fe56c60d9e13efec2050cc7373e',1,'catConfiguration_t::codeChannel()']]],
+  ['config_48',['config',['../structloc_msg___set_config_request.html#aa34e12dfa957dd140615ab04a2e9a117',1,'locMsg_SetConfigRequest::config()'],['../structloc_msg___get_config_confirm.html#a79f7a1232280b7a1e8c77c5949d2c063',1,'locMsg_GetConfigConfirm::config()'],['../structrcm_msg___set_config_request.html#a8d9761baa25fb8fc53c81f78195f2933',1,'rcmMsg_SetConfigRequest::config()'],['../structrcm_msg___get_config_confirm.html#a1bf353ad1b7b9593df7d337026d0f0dc',1,'rcmMsg_GetConfigConfirm::config()'],['../structrn_msg___set_config_request.html#a97208120e7560d815e16055011dff512',1,'rnMsg_SetConfigRequest::config()'],['../structrn_msg___get_config_confirm.html#ad2e9385525bae0471da281b08dc13e5a',1,'rnMsg_GetConfigConfirm::config()'],['../structrn_msg___set_a_l_o_h_a_config_request.html#aa0e01b2bb7007dfa5ab58b9f63119498',1,'rnMsg_SetALOHAConfigRequest::config()'],['../structrn_msg___get_a_l_o_h_a_config_confirm.html#a8c6e2d53edf19d80a1d3c105e11ff142',1,'rnMsg_GetALOHAConfigConfirm::config()'],['../structrn_msg___set_t_d_m_a_config_request.html#aa892e3bc04be71843326198538fe7e86',1,'rnMsg_SetTDMAConfigRequest::config()'],['../structrn_msg___get_t_d_m_a_config_confirm.html#a6c72be4083dd53ae8efd8ff4567f936b',1,'rnMsg_GetTDMAConfigConfirm::config()'],['../structmrm_msg___set_config_request.html#aafe5072823c402ac22c199527262c0fb',1,'mrmMsg_SetConfigRequest::config()'],['../structmrm_msg___get_config_confirm.html#ace5b5908105f506f54982e8493a96442',1,'mrmMsg_GetConfigConfirm::config()'],['../structcat_msg___set_config_request.html#aab39469fa57814b4e24afb3b0cee2135',1,'catMsg_SetConfigRequest::config()'],['../structcat_msg___get_config_confirm.html#acfc8ff851f0ad4c19befea3f49f8dff0',1,'catMsg_GetConfigConfirm::config()']]],
+  ['covar_5fxy_49',['covar_xy',['../structloc_location_report.html#a6cc415a405fad8863184df975f6428bb',1,'locLocationReport']]],
+  ['covar_5fxz_50',['covar_xz',['../structloc_location_report.html#adf0f0dd4825807fa73aa8496fd374795',1,'locLocationReport']]],
+  ['covar_5fyz_51',['covar_yz',['../structloc_location_report.html#ac2f6cf34bfab7d59930b14f6be87f3ec',1,'locLocationReport']]]
 ];

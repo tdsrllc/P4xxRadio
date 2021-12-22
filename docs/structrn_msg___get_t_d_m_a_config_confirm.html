@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_GetTDMAConfigConfirm Struct Reference</title>
+<title>P4XX UWB API: rnMsg_GetTDMAConfigConfirm Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,27 +101,93 @@ $(document).ready(function(){initNavTree('structrn_msg___get_t_d_m_a_config_conf
 <div class="title">rnMsg_GetTDMAConfigConfirm Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Confirm message from the radio that contains the radio's current TDMA configuration and status of GetTDMAConfigRequest.  
+ <a href="structrn_msg___get_t_d_m_a_config_confirm.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2b4985d43c82fe6a2581e891b9fb5dcc"><td class="memItemLeft" align="right" valign="top"><a id="a2b4985d43c82fe6a2581e891b9fb5dcc"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:a2b4985d43c82fe6a2581e891b9fb5dcc"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_config_confirm.html#a2b4985d43c82fe6a2581e891b9fb5dcc">msgType</a></td></tr>
 <tr class="separator:a2b4985d43c82fe6a2581e891b9fb5dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c8d78ac94debf83cb136fee9bf565f3"><td class="memItemLeft" align="right" valign="top"><a id="a2c8d78ac94debf83cb136fee9bf565f3"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:a2c8d78ac94debf83cb136fee9bf565f3"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_config_confirm.html#a2c8d78ac94debf83cb136fee9bf565f3">msgId</a></td></tr>
 <tr class="separator:a2c8d78ac94debf83cb136fee9bf565f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c72be4083dd53ae8efd8ff4567f936b"><td class="memItemLeft" align="right" valign="top"><a id="a6c72be4083dd53ae8efd8ff4567f936b"></a>
-<a class="el" href="structrn_t_d_m_a_configuration.html">rnTDMAConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><b>config</b></td></tr>
+<tr class="memitem:a6c72be4083dd53ae8efd8ff4567f936b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structrn_t_d_m_a_configuration.html">rnTDMAConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_config_confirm.html#a6c72be4083dd53ae8efd8ff4567f936b">config</a></td></tr>
 <tr class="separator:a6c72be4083dd53ae8efd8ff4567f936b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34d069c5d4214619a1794777cf15f9ab"><td class="memItemLeft" align="right" valign="top"><a id="a34d069c5d4214619a1794777cf15f9ab"></a>
-rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>status</b></td></tr>
+<tr class="memitem:a34d069c5d4214619a1794777cf15f9ab"><td class="memItemLeft" align="right" valign="top">rcrm_uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___get_t_d_m_a_config_confirm.html#a34d069c5d4214619a1794777cf15f9ab">status</a></td></tr>
 <tr class="separator:a34d069c5d4214619a1794777cf15f9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Confirm message from the radio that contains the radio's current TDMA configuration and status of GetTDMAConfigRequest. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_configuration.html" title="TDMA configuration message structure and definition.">rnTDMAConfiguration</a>; Corresponding Message: <a class="el" href="structrn_msg___get_t_d_m_a_config_request.html" title="Request message from the host to get the radio&#39;s current TDMA configuration.">rnMsg_GetTDMAConfigRequest</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2b4985d43c82fe6a2581e891b9fb5dcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b4985d43c82fe6a2581e891b9fb5dcc">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetTDMAConfigConfirm::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3114) for the GetTDMAConfigConfirm packet </p>
+
+</div>
+</div>
+<a id="a2c8d78ac94debf83cb136fee9bf565f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8d78ac94debf83cb136fee9bf565f3">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_GetTDMAConfigConfirm::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="a6c72be4083dd53ae8efd8ff4567f936b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c72be4083dd53ae8efd8ff4567f936b">&#9670;&nbsp;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structrn_t_d_m_a_configuration.html">rnTDMAConfiguration</a> rnMsg_GetTDMAConfigConfirm::config</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structrn_t_d_m_a_configuration.html" title="TDMA configuration message structure and definition.">rnTDMAConfiguration</a> </dd></dl>
+
+</div>
+</div>
+<a id="a34d069c5d4214619a1794777cf15f9ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d069c5d4214619a1794777cf15f9ab">&#9670;&nbsp;</a></span>status</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint32_t rnMsg_GetTDMAConfigConfirm::status</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Status of GetTDMAConfigRequest. (0=Successful) </p><dl class="section see"><dt>See also</dt><dd>Table of all possible Confirm message status codes and their meanings: <a class="el" href="subsystem1.html#subsystemsection4">Code Channel</a> </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

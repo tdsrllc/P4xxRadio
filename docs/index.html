@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: 1. Introduction</title>
+<title>P4XX UWB API: Introduction</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -94,25 +95,19 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title"><ol type="1">
-<li>Introduction </li>
-</ol>
-</div>  </div>
+<div class="title">Introduction </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This manual describes the RangeNet 3.1.9 programmer’s interface between the user’s Host processor and the following members of the P400 series of single-board UltraWideband (UWB) platforms. As of this date, this includes the P441, P442 and C445. This document does not apply to the P400, P410, P412, or P440 members of the family. These later platforms are only supported under RangeNet 2.0. For the purposes of this document the P441, P442, and C445 will be referred to interchangeably as P4xx platforms.</p>
+<div class="textblock"><p>This manual describes the RangeNet programmer’s interface between the user’s Host processor and the following members of the P4XX series of single-board UltraWideband (UWB) platforms.</p>
 <p>The P4xx platforms use Two-Way Time-of-Flight (TW-TOF) ranging to accurately measure the distance between two units. TW-TOF distance measurements are referred to as ranges or range measurements. <br  />
 </p>
-<p></p>
-<p><b>Fig. 1: Illustration of a P442 supplied with an optional plastic enclosure and Broadspec antenna.</b></p>
-<p></p>
 <p>The P4xx units can be operated as standalone devices, in that they do not need to be connected to a Host computer. In such cases, they will operate in whatever state they were last used.</p>
-<p>The units can be operated as peer-to-peer ranging devices (Ranging Mode) or as part of the RangeNet network. RangeNet is Humatics’ networking protocol and is specifically designed to address the needs of TW-TOF. The networking capability is resident on the P4xx and supports either the TDMA or ALOHA protocols.</p>
-<p>When operating in Network mode, the user has the option of engaging Humatics’ Location Engine. This localizer is resident on the P4xx and computes the current location of the P4xx using either a Geometric (Least Squares Fit) algorithm or a Kalman Filter with inter-unit TW-TOF range measurements. The Location Engine will report either 2D (XY) or 3D (XYZ) positions based on a user-defined setting. If the user has selected 2D positioning, then Z is assumed to be fixed and is user-definable. <br  />
+<p>The units can be operated as peer-to-peer ranging devices (Ranging Mode) or as part of the RangeNet network. RangeNet is networking protocol and is specifically designed to address the needs of TW-TOF. The networking capability is resident on the P4xx and supports either the TDMA or ALOHA protocols.</p>
+<p>When operating in Network mode, the user has the option of engaging Location Engine. This localizer is resident on the P4xx and computes the current location of the P4xx using either a Geometric (Least Squares Fit) algorithm or a Kalman Filter with inter-unit TW-TOF range measurements. The Location Engine will report either 2D (XY) or 3D (XYZ) positions based on a user-defined setting. If the user has selected 2D positioning, then Z is assumed to be fixed and is user-definable. <br  />
 </p>
 <p>The Location Engine is intended to illustrate how UWB range measurement can be used to geolocate. While reasonably robust, there are many corner cases in which the Localization Engine is not robust. These corner cases deal with operation in complex environments or when units change their velocity or direction. If the units are moving slowly in open areas, then the Localization Engine will be reasonably robust.</p>
-<p>Robustness of UWB location systems can be tremendously improved if the UWB range measurements are used in conjunction with other sensors, for example, accelerometers and wheel odometry. In these cases, the strengths of the individual sensor technologies cancel out the weakness of the other technologies yielding a fused system with excellent performance. However, the Location Engine supported by RangeNet does not support these other technologies. For more information on how this problem can be solved please contact Humatics directly at <a href="#" onclick="location.href='mai'+'lto:'+'sal'+'es'+'@hu'+'ma'+'tic'+'s.'+'com'; return false;">sales<span style="display: none;">.nosp@m.</span>@hum<span style="display: none;">.nosp@m.</span>atics<span style="display: none;">.nosp@m.</span>.com</a>.</p>
-<p>A more detailed description of RangeNet network and localization operations will be presented later in this document. Additional information can be found in <b>Section 7 - Network Principles</b> and <b>Section 11 - Localization Principles</b> of the <em>430-00021 RangeNet User Guide</em>. The User Guide describes the operation of Humatics’ Host-based RangeNet Graphical User Interface (GUI). RangeNet is provided with the Ranging and Localization Kits and Labs. In particular, RangeNet enables the user to:</p>
+<p>Robustness of UWB location systems can be tremendously improved if the UWB range measurements are used in conjunction with other sensors, for example, accelerometers and wheel odometry. In these cases, the strengths of the individual sensor technologies cancel out the weakness of the other technologies yielding a fused system with excellent performance. However, the Location Engine supported by RangeNet does not support these other technologies.</p>
+<p>A more detailed description of RangeNet network and localization operations will be presented later in this document. Additional information can be found in <b>Network Principles</b> and <b>Localization Principles</b> of the <em>430-00021 RangeNet User Guide</em>. The User Guide describes the operation of Host-based RangeNet Graphical User Interface (GUI). RangeNet is provided with the Ranging and Localization Kits and Labs. In particular, RangeNet enables the user to:</p>
 <ul>
 <li>Operate the P4xx in any of the various modes <br  />
 </li>
@@ -209,7 +204,7 @@ RangeNet Overview</h2>
 <p>The User controls and monitors the operation of the P4xx thought the API.</p>
 <p>Any message sent by the Host to the P4xx will cause the P4xx to transmit a confirmation message. If the message is not recognized, then an error message will be sent by the P4xx.</p>
 <p>The P4xx will also source messages. For example, it will send to the Host a message whenever range completes, a waveform scan is generated, data is received or localization information if generated.</p>
-<p>All commands are defined in Section 2.</p>
+<p>All commands are defined in Classes section.</p>
 <p>The P4xx does not need to be connected to a Host in order to operate. For example, when in Ranging Mode, the P4xx will respond to any message it receives and will source messages as required even if no Host is connected.</p>
 <p>If connected to a Host PC or microcontroller, then all information is sent to the Host. The user can also define a default communication port over which the information will be reported when the Host is not connected. This is useful on boot-up of the Host or when the system is recovering from a power failure (the user can also select “none” as the default). In any event, once the Host has successfully connected with the P4xx then all information will be reported over the communications port through which the Host connected. For example, if the User set the default communications port to serial and then connected with a Host through USB,then the P4xx would initially send information through the serial connection and then switch to USB when the connection was made.</p>
 <p>Network range request and response packets have a slightly different internal data format than standard Ranging range and response packets.</p>
@@ -222,7 +217,7 @@ RangeNet Network Modes (ALOHA and TDMA)</h2>
 <p>All modes support a Virtual Carrier Sense feature, which prevents sending a range request when it is known that another P4xx (whether in standard Ranging or RangeNet Mode) is responding to a range request. This avoids knowingly interfering with an ongoing range conversation.</p>
 <p>The ALOHA protocol as implemented in RangeNet has an additional benefit in that the network will behave as a Slotted ALOHA system. This is advantageous because the capacity of a Slotted ALOHA system is twice the capacity of a Pure ALOHA system (36% vs. 18%).</p>
 <p><b>Basics of TDMA (Time Division Multiple Access) Network Protocol:</b> In this concept of operation, the network nodes <em>do</em> own a specific time slot. The time at which they can transmit, the radios they communicate with, the duration of the transmission, the order in which they transmit, and the parameters associated with the range conversation or data transmission are all predefined by the user. This definition is captured as a Slot Map.</p>
-<p>The transmitter in the first slot (Slot #0) maintains the master clock. All units in the system will synchronize to this transmitter. If this transmitter should lose power or otherwise exit the system, then once the departure has been recognized, all units in the system will stop transmitting and the system will halt. The amount of time between actual departure and recognition of departure is normally on the order of seconds. This time is defined by the user as “Max Neighbor Age” and the default value for this is 10 seconds. The user can select different values but should take care not to make the value “too large.” During the time between exit and Max Neighbor Age, the network will continue to function for as long as the clocks in the radios are reasonably synchronized. Because each unit has a high precision oscillator, the system will operate for at least 10 and maybe many more seconds. For example, setting the Max Neighbor Age to a very high value, like 10,000 seconds, is asking for trouble. With such a setting, the network will sink into chaos when the oscillators finally lose synchronization.</p>
+<p>The transmitter in the first slot (Slot #0) maintains the master clock. All units in the system will synchronize to this transmitter. If this transmitter should lose power or otherwise exit the system, then once the departure has been recognized, all units in the system will stop transmitting and the system will halt. The amount of time between actual departure and recognition of departure is normally on the order of seconds. This time is defined by the user as “Max Neighbor Age” and the default value for this is 10 seconds. The user can select different values but should take care not to make the value “too large.” During the time between exit and Max Neighbor Age, the network will continue to function for as long as the clocks in the radios are reasonably synchronized. Because each unit has a high precision oscillator, the system will operate for at least 10 and maybe many more seconds.</p>
 <p>Different units may have different Slot Maps but all units need to have cooperative and consistent Slot Maps. In other words, all slots in all Slot Maps must have equal duration and be arranged so there no conflict. The user not only can define a Slot Map, but it is also the user’s responsibility to ensure that the Slot Map is organized such that there is no possibility for conflicting messages.</p>
 <p>The user can also channelize the network by adding a CDMA layer to the Slot Map. For example, the user could define that in time slot 2, Units 1 and 2 could communicate on code channel 1 and Units 3 and 4 could communicate on code channel 2. However, having all 4 units communicate in the same slot on the same channel, or requiring one unit to range to more than one unit, or other such nonsense is incompatible with a well-functioning network and will cause conflict.</p>
 <p>Once the Slot Map has been defined, there is no automatic mechanism for allowing new units to be added to the system. However, a higher-level protocol could allow the Host to monitor the network and redefine the Slot Map on the fly such that new units could be added. However, this Host-based code would be the responsibility of the user to develop.</p>
@@ -297,7 +292,7 @@ Localization Modes</h2>
 <p>Once this information has been distributed, the system can be transitioned to Tracking Mode. In this mode, the location of Mobiles will be calculated, and that information distributed through the network as configured by the user.</p>
 <p>Autosurvey is an optional mode. When engaged, it will direct the Anchors to range to each other while the Mobiles stay idle. The resultant information will flow back to the Host. It will then be the responsibility of the Host to decide when enough information has been collected and to load this information into the LMAP.</p>
 <p>If Autosurvey is not used, then it is the user’s responsibility to build the LMAP and provide surveyed locations for the fixed reference units.</p>
-<p>Humatics’ RangeNet GUI is an excellent tool for illustrating operation of ranging, networking, and location. Exercising the GUI will provide the user with insight into how the API commands are used and how the system works. For that reason, we strongly recommend that the user begin any development program by first mastering the RangeNet GUI. Mastery can be accomplished in a few days, perhaps weeks, and will greatly reduce the time understanding how the API works.</p>
+<p>RangeNet GUI is an excellent tool for illustrating operation of ranging, networking, and location. Exercising the GUI will provide the user with insight into how the API commands are used and how the system works. For that reason, we strongly recommend that the user begin any development program by first mastering the RangeNet GUI. Mastery can be accomplished in a few days, perhaps weeks, and will greatly reduce the time understanding how the API works.</p>
 <p>If properly set up and operated in a benign environment, the system will provide location accuracy of the Mobiles on the order of a few centimeters. In some ideal cases, accuracies of 1 or 2 millimeters have been achieved. Guidance on how to achieve the best accuracy possible is provided in <b>Appendix F: Maximizing Location Performance</b> of the <em>430-00021 RangeNet User Guide</em>.</p>
 <h1><a class="anchor" id="mainpagesubsection7"></a>
 Ranging, RangeNet, and Localization Configuration Control</h1>
@@ -311,6 +306,7 @@ Sending and Receiving Data</h1>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

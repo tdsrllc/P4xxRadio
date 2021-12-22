@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: 5. Ranging Parameter Descriptions and Confirm Status</title>
+<title>P4XX UWB API: Ranging Parameter Descriptions and Confirm Status</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -94,10 +95,7 @@ $(document).ready(function(){initNavTree('subsystem1.html',''); initResizable();
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title"><ol type="1">
-<li>Ranging Parameter Descriptions and Confirm Status </li>
-</ol>
-</div>  </div>
+<div class="title">Ranging Parameter Descriptions and Confirm Status </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
@@ -156,14 +154,12 @@ Antenna Mode</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyCenter">128 </td><td class="markdownTableBodyCenter">Auto-Toggle after Response </td><td class="markdownTableBodyCenter">Auto-Toggle after Response  </td></tr>
 </table>
-<p> <b>Table B-1:</b> Antenna mode configuration settings for the P4xx</p>
-<p></p>
 <p>Note that there is also a parameter which allows the user to define the orientation of the Broadspec antenna (i.e., define whether the antenna is pointed up or pointed down). (<a class="el" href="structrcm_configuration.html#a167341a01f4facbeb4215fa503ce83e7">rcmConfiguration::flags</a> bits [3:2]) This capability is of importance for those interested in centimeter-level accuracy, since a mismatched antenna pair will result in an error in bias of 4 cm. A pair of antennas is considered mismatched when one antenna is pointing up and the other is pointing down. Defining which direction the antenna is pointing allows the ranging algorithm to compensate for the difference and thereby avoid a 4 cm error.</p>
 <h1><a class="anchor" id="subsystemsection4"></a>
 Code Channel</h1>
 <p>RangeNet is provided with a large number of independent communications channels. These channels are independent in that operation on one channel will be not register or be interfered by transmissions on a different channel in any meaningful way. In short, these channels are orthogonal. The channels are defined using different pulse transmissions rates. For example, one code might transmit pulses at 10.00 MHz while a different channel will transmit at 10.01 MHz. While these differences are slight, when coupled with coherent pulse integration it is enough to maintain a very high degree of isolation between channels.</p>
 <p>The channels have been divided into two sets: long codes and short codes. Long codes (codes 0-10) have a nominal pulse repetition rate of 100ns. Short codes (codes 16-75) have a nominal pulse repetition rate of 70ns. Like codes are orthogonal, but unlike code are not. When operating in a system one should either use short codes or long codes, otherwise there will be mutual interference.</p>
-<p>Humatics recommends the use of short codes for two reasons. First, there are many more short codes. This increases system capacity and scalability. Second, short codes need less airtime in which to range. This increases both the update rate and system scalability. The only benefit offered by long code is that emission regulations allow them to transmit 0.9dB more power and thereby enjoy marginally better range performance. In most applications, this is of trivial value.</p>
+<p>The only benefit offered by long code is that emission regulations allow them to transmit 0.9dB more power and thereby enjoy marginally better range performance. In most applications, this is of trivial value.</p>
 <h1><a class="anchor" id="subsystemsection5"></a>
 Antenna Delay A &amp; B</h1>
 <p>Typically, the user will want to measure the separation distance measurement to the antennas of the radios. P4xx units have been calibrated by default to presume a zero Antenna Delay when using the default Broadspec antennas with a simple 90-degree elbow SMA connector. If the SMA connector is not used (i.e., the Broadspec antenna is attached directly to the P4xx antenna) then the user should substitute the value of 0 with a value of -91). In any event this effect is minor as removing the SMA connector increases the bias by about 25 mm or 1 inch.</p>
@@ -195,7 +191,7 @@ Range Measurement Details</h1>
 <p>The units have been calibrated such that the distance between antenna phase centers should be within 1 cm of a value measured using a tape measure or laser range finder. However, there are a few caveats with this statement. <br  />
 </p>
 <ul>
-<li>The P4xx must use the standard antenna provided by Humatics. Use of other antennas or intervening cables will cause a change. <br  />
+<li>The P4xx must use the standard antenna. Use of other antennas or intervening cables will cause a change. <br  />
 </li>
 <li>The units must be so close to each other that the transmitted signal overwhelms the receiver input. This is caused saturation. In saturation you can expect the difference between the actual distance and the reported distance will be off by a few cm. Generally, this issue will disappear if the units are separated by a few meters. See the relevant P4xx data sheet for details. <br  />
 </li>
@@ -203,9 +199,6 @@ Range Measurement Details</h1>
 </li>
 <li>The calibration requires that both antennas be orientated in the same direction. If one is pointing up and the other is down, then this difference will introduce a 4cm error. This error can be avoided using the antenna direction parameter in the configuration message to indicate direction.</li>
 </ul>
-<p></p>
-<p><b>Fig. B-1:</b> Broadspec UWB antenna with radiating point indicated</p>
-<p> </p>
 <h1><a class="anchor" id="subsystemsection9"></a>
 Waveform Scan, Scan Data, Lock Spot, and Leading Edge</h1>
 <p>These parameters are all associated with the waveform scan reported by the SCAN_INFO message, the computation of the leadings edge and the range estimation process.</p>
@@ -240,7 +233,7 @@ Range Status Codes</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter">7 </td><td class="markdownTableBodyCenter">Responder RX Weak </td><td class="markdownTableBodyCenter">The requester has determined that the waveform it received is &gt;10 dB weaker than the waveform which the responder received. This measurement is based on SNR, not Vpeak. If the RF channel is the same, then the two units should be measuring waveforms of similar magnitudes. The fact that there is a difference probably indicates that either: <b>a)</b> <em>the responder is transmitting less power than the requester,</em> <b>b)</b> <em>the responder has a weak receiver,</em> <b>c)</b> <em>the RF channel is not symmetric,</em> or <b>d)</b> <em>an interference source close to the responder may be increasing the noise floor of the responder, but is too distant to affect the requester.</em> The most likely cause is the units have been set up to operate at different transmit powers. If the units are operating at the same transmit power and the receivers are both functioning properly then the reading should be discarded.  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyCenter">11 </td><td class="markdownTableBodyCenter">LOS/NLOS Mismatch </td><td class="markdownTableBodyCenter">The requester and responder disagree as to the nature of the channel. One believes that the channel is LOS (line of sight), the other thinks the channel is NLOS (non-line of sight). There are several possible causes. The units may be operating in different RF channels. The link may be very weak and the LOS/NLOS detection algorithm is confused. The safest course of action is to ignore the reading. If this happens continuously in you application, please contact technical support at Humatics.  </td></tr>
+<td class="markdownTableBodyCenter">11 </td><td class="markdownTableBodyCenter">LOS/NLOS Mismatch </td><td class="markdownTableBodyCenter">The requester and responder disagree as to the nature of the channel. One believes that the channel is LOS (line of sight), the other thinks the channel is NLOS (non-line of sight). There are several possible causes. The units may be operating in different RF channels. The link may be very weak and the LOS/NLOS detection algorithm is confused. The safest course of action is to ignore the reading. If this happens continuously in you application, please contact technical support at TDSR.  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyCenter">15 </td><td class="markdownTableBodyCenter">Both-Sides-Delta-Check Failed </td><td class="markdownTableBodyCenter">The requester detected a mismatch between the LED on the responder and the requester, indicating a possible incorrect range.  </td></tr>
 <tr class="markdownTableRowOdd">
@@ -280,6 +273,7 @@ Confirm Message Status Codes</h1>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

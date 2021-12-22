@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.17-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -5,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TDSR UWB API: rnMsg_SetResponseDataRequest Struct Reference</title>
+<title>P4XX UWB API: rnMsg_SetResponseDataRequest Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,11 +30,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="TDSR_logo_250x134.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TDSR UWB API
-   &#160;<span id="projectnumber">2.1.2</span>
+   <div id="projectname">P4XX UWB API
+   &#160;<span id="projectnumber">1.2.1.dev.b</span>
    </div>
-   <div id="projectbrief">Software Release</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -100,30 +101,112 @@ $(document).ready(function(){initNavTree('structrn_msg___set_response_data_reque
 <div class="title">rnMsg_SetResponseDataRequest Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Request message from the host to set the data buffer in the RangeNet range response.  
+ <a href="structrn_msg___set_response_data_request.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ab2d01b60c59df200e0c4b5347f56cdef"><td class="memItemLeft" align="right" valign="top"><a id="ab2d01b60c59df200e0c4b5347f56cdef"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgType</b></td></tr>
+<tr class="memitem:ab2d01b60c59df200e0c4b5347f56cdef"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_request.html#ab2d01b60c59df200e0c4b5347f56cdef">msgType</a></td></tr>
 <tr class="separator:ab2d01b60c59df200e0c4b5347f56cdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ce46fc975abcc6467e079a4ca718ede"><td class="memItemLeft" align="right" valign="top"><a id="a6ce46fc975abcc6467e079a4ca718ede"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>msgId</b></td></tr>
+<tr class="memitem:a6ce46fc975abcc6467e079a4ca718ede"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_request.html#a6ce46fc975abcc6467e079a4ca718ede">msgId</a></td></tr>
 <tr class="separator:a6ce46fc975abcc6467e079a4ca718ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad19bb23069c018b5200a94c49634394e"><td class="memItemLeft" align="right" valign="top"><a id="ad19bb23069c018b5200a94c49634394e"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>reserved</b></td></tr>
+<tr class="memitem:ad19bb23069c018b5200a94c49634394e"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_request.html#ad19bb23069c018b5200a94c49634394e">reserved</a></td></tr>
 <tr class="separator:ad19bb23069c018b5200a94c49634394e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a560e78c90a062a955d3e7791bd6e5f52"><td class="memItemLeft" align="right" valign="top"><a id="a560e78c90a062a955d3e7791bd6e5f52"></a>
-rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><b>dataSize</b></td></tr>
+<tr class="memitem:a560e78c90a062a955d3e7791bd6e5f52"><td class="memItemLeft" align="right" valign="top">rcrm_uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_request.html#a560e78c90a062a955d3e7791bd6e5f52">dataSize</a></td></tr>
 <tr class="separator:a560e78c90a062a955d3e7791bd6e5f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f85b72e0a92677c281a6773306d6a59"><td class="memItemLeft" align="right" valign="top"><a id="a2f85b72e0a92677c281a6773306d6a59"></a>
-rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> [RN_USER_DATA_LENGTH]</td></tr>
+<tr class="memitem:a2f85b72e0a92677c281a6773306d6a59"><td class="memItemLeft" align="right" valign="top">rcrm_uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrn_msg___set_response_data_request.html#a2f85b72e0a92677c281a6773306d6a59">data</a> [RN_USER_DATA_LENGTH]</td></tr>
 <tr class="separator:a2f85b72e0a92677c281a6773306d6a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Request message from the host to set the data buffer in the RangeNet range response. </p>
+<p>This data will be transmitted by the unit whenever it sends a range response. <br  />
+ The buffer will remain in effect until changed by the Host. <br  />
+ Upon boot this buffer will be empty. If the amount of data in the buffer is greater than the Max Response Data Size value in the RangeNet configuration, the buffer will be truncated. </p><dl class="section see"><dt>See also</dt><dd>Corresponding Message: <a class="el" href="structrn_msg___set_response_data_confirm.html" title="Confrim message from the radio that contains the status of SetResponseDataRequest.">rnMsg_SetResponseDataConfirm</a> </dd></dl>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab2d01b60c59df200e0c4b5347f56cdef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d01b60c59df200e0c4b5347f56cdef">&#9670;&nbsp;</a></span>msgType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataRequest::msgType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Type. This is the message type(0x3004) for the SetResponseDataRequest packet </p>
+
+</div>
+</div>
+<a id="a6ce46fc975abcc6467e079a4ca718ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ce46fc975abcc6467e079a4ca718ede">&#9670;&nbsp;</a></span>msgId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataRequest::msgId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Message Id. Associates request to confirm and info messages. </p>
+
+</div>
+</div>
+<a id="ad19bb23069c018b5200a94c49634394e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19bb23069c018b5200a94c49634394e">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataRequest::reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserved </p>
+
+</div>
+</div>
+<a id="a560e78c90a062a955d3e7791bd6e5f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560e78c90a062a955d3e7791bd6e5f52">&#9670;&nbsp;</a></span>dataSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint16_t rnMsg_SetResponseDataRequest::dataSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of bytes to include in each range response packet. These actual bytes follow. Maximum = 1000 </p><dl class="section note"><dt>Note</dt><dd>the radio transmits 32bit (4byte) words. Any partial words will be zero-filled over the air but these bits will be removed upon reception. </dd></dl>
+
+</div>
+</div>
+<a id="a2f85b72e0a92677c281a6773306d6a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f85b72e0a92677c281a6773306d6a59">&#9670;&nbsp;</a></span>data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rcrm_uint8_t rnMsg_SetResponseDataRequest::data[RN_USER_DATA_LENGTH]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Data to be sent with the range request packet. Extra bytes above dataSize, or Max Request Data Size from the RangeNet ALOHA configuration, whichever is less, will be ignored. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="host_interface_r_n_8h_source.html">hostInterfaceRN.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.8.17-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

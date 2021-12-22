@@ -2,6 +2,7 @@ var structrn_msg___get_full_neighbor_database_confirm =
 [
     [ "msgType", "structrn_msg___get_full_neighbor_database_confirm.html#ab65320236db3b8eb7f13b2620ddf0aaa", null ],
     [ "msgId", "structrn_msg___get_full_neighbor_database_confirm.html#a20699cdbaa7578745b39da5c8527ccde", null ],
+    [ "localNodeId", "structrn_msg___get_full_neighbor_database_confirm.html#a7b422949598da00a4cc7e2ff48f01114", null ],
     [ "numNeighborEntries", "structrn_msg___get_full_neighbor_database_confirm.html#a57dca248604ead7aaa6eb7ecbb2d8faa", null ],
     [ "sortType", "structrn_msg___get_full_neighbor_database_confirm.html#a3aa519057275015febe065b9bba54c49", null ],
     [ "reserved", "structrn_msg___get_full_neighbor_database_confirm.html#a032df9410c9df6675290d0fafbe426c5", null ],
